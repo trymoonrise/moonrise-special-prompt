@@ -1,0 +1,64 @@
+<!-- Craft preset: text field with focus + error -->
+<style>
+  .craft-field-wrap {
+    display: grid;
+    gap: 0.35rem;
+    width: min(100%, 20rem);
+  }
+  .craft-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #111;
+  }
+  .craft-field {
+    appearance: none;
+    width: 100%;
+    min-height: 44px;
+    padding: 0.7rem 0.9rem;
+    border: 0;
+    border-radius: 14px;
+    background: #fff;
+    color: #111;
+    font: inherit;
+    box-shadow: inset 0 0 0 1px #d4d4d8;
+    outline: none;
+    transition: box-shadow 0.15s ease, background 0.15s ease;
+  }
+  .craft-field::placeholder { color: #8a8a8a; }
+  .craft-field:hover { box-shadow: inset 0 0 0 1px #a1a1aa; }
+  .craft-field:focus {
+    box-shadow:
+      inset 0 0 0 1px #111,
+      0 0 0 3px rgb(17 17 17 / 12%);
+  }
+  .craft-field.is-error {
+    box-shadow: inset 0 0 0 1px #d92d20;
+  }
+  .craft-field.is-error:focus {
+    box-shadow:
+      inset 0 0 0 1px #d92d20,
+      0 0 0 3px rgb(217 45 32 / 14%);
+  }
+  .craft-hint {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #5c5c5c;
+  }
+  .craft-error {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #d92d20;
+  }
+</style>
+
+<label class="craft-field-wrap">
+  <span class="craft-label">Business email</span>
+  <input class="craft-field" type="email" name="email" placeholder="you@business.com" autocomplete="email">
+  <p class="craft-hint">We’ll send the live link here.</p>
+</label>
+
+<label class="craft-field-wrap">
+  <span class="craft-label">Business email</span>
+  <input class="craft-field is-error" type="email" name="email-error" value="not-an-email" aria-invalid="true" aria-describedby="craft-email-error">
+  <p class="craft-error" id="craft-email-error">Enter a valid email address.</p>
+</label>
