@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Moonrise Designer Tips
+    url: https://trymoonrise.com/designer-tips.html
+    about: Live demos for loaders, buttons, fields, and the special prompt copy box.
+  - name: Moonrise product site
+    url: https://trymoonrise.com
+    about: Find, build, preview, get paid, go live.
+  - name: Moonrise product source
+    url: https://github.com/trymoonrise/moonrise
+    about: Studio, Builder agent, worker, and site source.

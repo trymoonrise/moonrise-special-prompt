@@ -1,0 +1,25 @@
+name: Prompt improvement
+description: Suggest clearer wording or a missing rule in PROMPT.md
+title: "[prompt] "
+labels: ["prompt"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What goes wrong today
+      description: What do agents get wrong without this change?
+      placeholder: Agents invent purple gradients / skip focus rings / omit phone numbers…
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed wording
+      description: Paste a short rule or rewrite we should add to PROMPT.md.
+    validations:
+      required: true
+  - type: input
+    id: tools
+    attributes:
+      label: Agents you tried
+      placeholder: Cursor, Claude, Codex, Copilot…

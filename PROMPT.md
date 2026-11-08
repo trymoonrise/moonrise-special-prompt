@@ -1,4 +1,4 @@
-# Craft
+# Moonrise Special Prompt
 
 Paste this whole file into any coding agent (Cursor, Claude, Codex, Copilot, and similar). The agent should read the project it is already in, keep every feature and all content, and raise the interface. Do not rebuild the product. Do not invent features.
 
@@ -77,9 +77,21 @@ Provide primary, secondary, ghost, and danger when the product needs them.
 
 When the project is Moonrise Studio / trymoonrise.com:
 
-- Prefer patterns from https://trymoonrise.com/designer-tips.html and the snippets in https://github.com/trymoonrise/craft (`presets/`).
+- Prefer patterns from https://trymoonrise.com/designer-tips.html and the snippets in https://github.com/trymoonrise/moonrise-special-prompt (`presets/`).
 - Keep Moonrise ink and surfaces calm (near-black primary, soft fills, hairline borders).
-- Do not rename product features or change checkout, auth, or publish behavior while crafting the UI.
+- Do not rename product features or change checkout, auth, or publish behavior while applying this prompt.
+
+## Ship bar (generated sites)
+
+When assembling a full business website (Moonrise Builder agent or similar):
+
+- Modern, minimal, professional. Calm surfaces. One accent. No purple gradients, glows, glass blobs, or noisy motion.
+- Exact business name, phone, address, and hours when provided. Never invent contact facts. Never leave placeholders.
+- Complete document: doctype, viewport, nav, hero, content, contact form, footer, closed tags.
+- Shared button system with hover, press, disabled, and a stable loading state. Visible field focus rings.
+- Motion about 150–220ms with `prefers-reduced-motion`. No stuttering loops or broken overlays.
+- Finished components only: aligned columns, reserved image space, no cut-off text, no overlapping controls, no horizontal page scroll.
+- Prefer a simpler complete page over a broken fancy one. Do not ship a page that fails this bar.
 
 ## Done when
 
@@ -88,3 +100,4 @@ When the project is Moonrise Studio / trymoonrise.com:
 - Loading, empty, and error states exist for the main data on the screen.
 - Focus and keyboard dismissal work for overlays.
 - You can name the few files you changed, and nothing unrelated moved.
+- For full generated sites: every ship-bar item above passes.

@@ -1,31 +1,221 @@
-# Craft
+<p align="center">
+  <a href="https://trymoonrise.com">
+    <img src="https://trymoonrise.com/assets/MoonriseLogo.png" alt="Moonrise" width="72" height="72" />
+  </a>
+</p>
 
-A paste-anywhere prompt that raises website and app UI. It is built from the patterns on [Moonrise Designer Tips](https://trymoonrise.com/designer-tips.html).
+<h1 align="center">Moonrise Special Prompt</h1>
 
-Use it inside Moonrise Builder later, or paste it into any coding agent today.
+<p align="center">
+  The official paste-anywhere UI prompt for <a href="https://trymoonrise.com">Moonrise Studio</a>.
+  <br />
+  Raise spacing, buttons, loading, focus, and empty states — without rebuilding the product.
+</p>
 
-## Use
+<p align="center">
+  <a href="https://trymoonrise.com/designer-tips.html"><img src="https://img.shields.io/badge/Live_demos-Designer_Tips-111111?style=for-the-badge" alt="Designer Tips" /></a>
+  <a href="https://trymoonrise.com"><img src="https://img.shields.io/badge/Product-trymoonrise.com-0A7C66?style=for-the-badge" alt="Moonrise" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2F6FED?style=for-the-badge" alt="MIT" /></a>
+</p>
 
-1. Open [`PROMPT.md`](PROMPT.md).
-2. Copy the whole file.
-3. Paste it into Cursor, Claude, Codex, Copilot, or a similar agent that already has your project open.
-4. Point the agent at the screen or files you want improved.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/trymoonrise/moonrise-special-prompt?style=flat-square" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/trymoonrise/moonrise-special-prompt?style=flat-square" alt="Forks" />
+  <img src="https://img.shields.io/github/last-commit/trymoonrise/moonrise-special-prompt?style=flat-square" alt="Last commit" />
+  <img src="https://img.shields.io/github/license/trymoonrise/moonrise-special-prompt?style=flat-square" alt="License badge" />
+  <img src="https://img.shields.io/badge/agents-Cursor%20%7C%20Claude%20%7C%20Codex%20%7C%20Copilot-111111?style=flat-square" alt="Agents" />
+</p>
 
-The agent should keep your features and content, then fix spacing, buttons, loading, hover, focus, and empty or error states.
+---
+
+## Why this exists
+
+Moonrise builds calm, modern local-business websites. Agents often invent purple gradients, broken loaders, missing contact facts, or flashy motion. This repo is the shared **special prompt** Moonrise uses so every agent — inside Builder or in your own project — follows the same bar.
+
+| You want | This repo gives you |
+| --- | --- |
+| Better UI without a redesign | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
+| Controls that already work | [`presets/`](presets/) — buttons, loaders, fields, toast + empty |
+| Live examples | [Designer Tips](https://trymoonrise.com/designer-tips.html) on trymoonrise.com |
+| Generated site quality | Ship bar rules so incomplete or broken pages do not ship |
+
+> Formerly published as `trymoonrise/craft`. Same project; clearer name.
+
+---
+
+## Quick start (2 minutes)
+
+1. Open **[`PROMPT.md`](https://github.com/trymoonrise/moonrise-special-prompt/blob/main/PROMPT.md)**.
+2. Copy the entire file (`raw` → select all → copy).
+3. Paste it into Cursor, Claude, Codex, Copilot, or a similar coding agent that already has your project open.
+4. Point at one screen or a few files: *“Apply the Moonrise Special Prompt to this page. Keep every feature and all copy.”*
+
+The agent should keep routes, data, and behavior, then fix spacing, type, color, buttons, loading, hover/press, focus, and empty/error states.
+
+### One-liner for agents
+
+```text
+Read https://raw.githubusercontent.com/trymoonrise/moonrise-special-prompt/main/PROMPT.md
+and apply it to the current screen. Keep every feature and all content.
+Prefer presets from this repo when a control already exists.
+```
+
+### Embed the raw prompt
+
+Use the raw URL anywhere an agent or script can fetch text:
+
+```text
+https://raw.githubusercontent.com/trymoonrise/moonrise-special-prompt/main/PROMPT.md
+```
+
+Markdown embed (GitHub will render a link preview in many clients):
+
+```md
+[Moonrise Special Prompt](https://github.com/trymoonrise/moonrise-special-prompt/blob/main/PROMPT.md)
+```
+
+HTML embed for docs sites:
+
+```html
+<iframe
+  title="Moonrise Special Prompt"
+  src="https://trymoonrise.com/designer-tips.html#craft"
+  loading="lazy"
+  style="width:100%;min-height:640px;border:1px solid #ddd;border-radius:12px;"
+></iframe>
+```
+
+---
+
+## Repository map
+
+```text
+moonrise-special-prompt/
+├── PROMPT.md                 # The special prompt (copy this)
+├── README.md                 # You are here
+├── LICENSE                   # MIT
+└── presets/
+    ├── buttons.html          # Primary / secondary / ghost / danger / loading
+    ├── loaders.html          # Spinner, skeleton, progress
+    ├── field.html            # Text field with focus + error
+    └── toast-empty.html      # Toast + empty state
+```
+
+---
+
+## Instructions by tool
+
+### Cursor
+
+1. Open your project.
+2. Start Agent / Chat.
+3. Paste `PROMPT.md`, or ask the agent to fetch the raw URL above.
+4. Attach the files or `@folder` for the screen you want improved.
+5. Optional: save `PROMPT.md` as a project rule (`.cursor/rules/moonrise-special-prompt.mdc`) so every chat starts with it.
+
+### Claude / Claude Code
+
+Paste the prompt at the top of the conversation, then name the files. For Claude Code, drop `PROMPT.md` into the project and say “follow Moonrise Special Prompt.”
+
+### Codex / Copilot / other agents
+
+Same pattern: full prompt first, then a short task. Do not ask the agent to invent a new design system if a preset already covers the control.
+
+---
 
 ## Presets
 
-Small HTML and CSS snippets an agent can paste and recolor:
+Small HTML/CSS snippets an agent can paste and recolor. Prefer these over inventing new controls.
 
-| File | What it covers |
+| File | Covers |
 | --- | --- |
 | [`presets/buttons.html`](presets/buttons.html) | Primary, secondary, ghost, danger, loading |
 | [`presets/loaders.html`](presets/loaders.html) | Spinner, skeleton, progress |
 | [`presets/field.html`](presets/field.html) | Text field with focus and error |
 | [`presets/toast-empty.html`](presets/toast-empty.html) | Toast and empty state |
 
-Live demos for the same ideas live on [Designer Tips](https://trymoonrise.com/designer-tips.html).
+Live interactive demos for the same ideas:
+
+**[Open Designer Tips →](https://trymoonrise.com/designer-tips.html)**
+
+<p>
+  <a href="https://trymoonrise.com/designer-tips.html">
+    <img src="https://trymoonrise.com/assets/MoonriseLogo.png" alt="Open Designer Tips on Moonrise" width="48" />
+  </a>
+</p>
+
+---
+
+## Design rules (summary)
+
+The full rules live in [`PROMPT.md`](PROMPT.md). Short version:
+
+- **Spacing** on a 4px grid. No odd 7px / 13px values.
+- **Color** — one neutral ramp, one accent. No purple gradients, glows, or rainbow decoration.
+- **Type** — few sizes, two weights, sentence case.
+- **Buttons** — hover, press, disabled, stable loading (`aria-busy`).
+- **Motion** — ~150–220ms, always with `prefers-reduced-motion`.
+- **Forms** — visible focus rings, plain-language errors.
+- **Layout** — mobile first, reserved image space, no overlapping controls.
+
+### Ship bar (generated business sites)
+
+When the agent assembles a full site (Moonrise Builder or similar), it must not ship until:
+
+1. Business name / phone / address / hours are exact when provided — no placeholders.
+2. Document is complete: doctype, viewport, nav, hero, content, contact form, footer.
+3. UI is modern, minimal, professional — calm surfaces, one accent.
+4. Components are smooth: no stuttering loops, cut-off text, or broken overlays.
+5. Prefer a simpler complete page over a broken fancy one.
+
+Moonrise Builder runs this prompt, quality-gates the HTML, repairs once, then falls back to a Craft-quality shell instead of publishing a broken page.
+
+---
+
+## How Moonrise uses this
+
+| Surface | Role |
+| --- | --- |
+| [Designer Tips](https://trymoonrise.com/designer-tips.html#craft) | Public copy button + live demos |
+| Moonrise Builder agent | Loads the same prompt server-side when generating sites |
+| This GitHub repo | Source of truth for the public prompt + presets |
+
+Product: **[trymoonrise.com](https://trymoonrise.com)**  
+Studio docs and demos: **[Designer Tips](https://trymoonrise.com/designer-tips.html)**  
+Main product source: **[trymoonrise/moonrise](https://github.com/trymoonrise/moonrise)**
+
+---
+
+## What this is not
+
+- Not a component library or npm package.
+- Not a theme that restyles your whole app automatically.
+- Not permission to invent features, change checkout, or rewrite auth.
+- Not a substitute for your product’s real content and business facts.
+
+---
+
+## Contributing
+
+1. Keep `PROMPT.md` the single source of the special prompt.
+2. Keep presets small, pasteable, and dependency-free.
+3. Match the calm Moonrise visual language (near-black ink, soft fills, hairline borders).
+4. Open a pull request with a short “why” — one concern per PR when possible.
+
+Issues and PRs are welcome for clearer wording, better presets, and agent-tool instructions.
+
+---
 
 ## License
 
-MIT
+[MIT](LICENSE) © 2026 Moonrise
+
+---
+
+<p align="center">
+  <a href="https://trymoonrise.com">trymoonrise.com</a>
+  ·
+  <a href="https://trymoonrise.com/designer-tips.html">Designer Tips</a>
+  ·
+  <a href="https://github.com/trymoonrise/moonrise-special-prompt/blob/main/PROMPT.md">PROMPT.md</a>
+</p>

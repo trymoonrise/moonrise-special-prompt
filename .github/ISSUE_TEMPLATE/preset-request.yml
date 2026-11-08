@@ -1,0 +1,25 @@
+name: Preset request
+description: Request a new pasteable HTML/CSS preset
+title: "[preset] "
+labels: ["presets"]
+body:
+  - type: input
+    id: control
+    attributes:
+      label: Control
+      description: What UI control do you need?
+      placeholder: Confirm dialog, segmented control, search field…
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs here
+      description: How would agents misuse UI without this preset?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: States to cover (hover, focus, loading, empty, error).

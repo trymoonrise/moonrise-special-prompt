@@ -1,0 +1,31 @@
+# Contributing to Moonrise Special Prompt
+
+Thanks for helping keep the Moonrise Special Prompt clear and useful.
+
+## Scope
+
+This repo holds:
+
+- `PROMPT.md` — the paste-anywhere special prompt
+- `presets/` — small HTML/CSS snippets agents can paste and recolor
+- Docs that explain how to use them with coding agents
+
+It does **not** hold the Moonrise Studio app. Product changes belong in [trymoonrise/moonrise](https://github.com/trymoonrise/moonrise).
+
+## Guidelines
+
+1. Prefer clearer wording over new sections.
+2. Keep presets dependency-free and under a few KB.
+3. Match Designer Tips patterns: calm surfaces, 4px spacing, one accent, real hover/press/focus/loading.
+4. Do not add purple gradients, glows, or noisy infinite motion.
+5. One concern per pull request when you can.
+
+## Pull requests
+
+- Title: short “why” (for example `Clarify ship bar for generated sites`).
+- Describe what an agent should do differently after the change.
+- Link a Designer Tips section if the change mirrors a live demo.
+
+## Questions
+
+Open an issue, or start from the live demos on [Designer Tips](https://trymoonrise.com/designer-tips.html).
