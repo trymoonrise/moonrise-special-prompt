@@ -16,6 +16,7 @@
   <a href="https://trymoonrise.com/designer-tips.html"><img src="https://img.shields.io/badge/Live_demos-Designer_Tips-111111?style=for-the-badge" alt="Designer Tips" /></a>
   <a href="https://trymoonrise.com"><img src="https://img.shields.io/badge/Product-trymoonrise.com-0A7C66?style=for-the-badge" alt="Moonrise" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2F6FED?style=for-the-badge" alt="MIT" /></a>
+  <a href="https://github.com/heydamir/unslop"><img src="https://img.shields.io/badge/UI_craft-unslop-111111?style=for-the-badge" alt="unslop" /></a>
 </p>
 
 <p align="center">
@@ -32,11 +33,14 @@
 
 Moonrise builds calm, modern local-business websites. Agents often invent purple gradients, broken loaders, missing contact facts, or flashy motion. This repo is the shared **special prompt** Moonrise uses so every agent — inside Builder or in your own project — follows the same bar.
 
+Professional UI craft here is adapted from **[unslop](https://github.com/heydamir/unslop)** by Damir Sokolovsky (CC BY 4.0): audit the slop, set a direction from the product, then polish pass by pass so the screen stops looking AI-generated. See [`CREDITS.md`](CREDITS.md).
+
 | You want | This repo gives you |
 | --- | --- |
 | Better UI without a redesign | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
 | Controls that already work | [`presets/`](presets/) — buttons, loaders, fields, toast + empty |
 | Live examples | [Designer Tips](https://trymoonrise.com/designer-tips.html) on trymoonrise.com |
+| Anti-slop craft reference | [heydamir/unslop](https://github.com/heydamir/unslop) |
 | Generated site quality | Ship bar rules so incomplete or broken pages do not ship |
 
 > Formerly published as `trymoonrise/craft`. Same project; clearer name.
@@ -148,15 +152,16 @@ Live interactive demos for the same ideas:
 
 ## Design rules (summary)
 
-The full rules live in [`PROMPT.md`](PROMPT.md). Short version:
+The full rules live in [`PROMPT.md`](PROMPT.md), aligned with [unslop](https://github.com/heydamir/unslop). Short version:
 
+- **Workflow** — audit → product direction → passes (spacing, color, icons, copy, type, layout, details, visuals, motion).
 - **Spacing** on a 4px grid. No odd 7px / 13px values.
-- **Color** — one neutral ramp, one accent. No purple gradients, glows, or rainbow decoration.
-- **Type** — few sizes, two weights, sentence case.
+- **Color** — quiet chrome, one neutral ramp, one accent. No purple gradients, glows, glass blobs, or rainbow decoration.
+- **Type / copy** — few sizes, two weights, sentence case, no hype or emoji chrome.
 - **Buttons** — hover, press, disabled, stable loading (`aria-busy`).
 - **Motion** — ~150–220ms, always with `prefers-reduced-motion`.
 - **Forms** — visible focus rings, plain-language errors.
-- **Layout** — mobile first, reserved image space, no overlapping controls.
+- **Layout** — mobile first, one composition, real product/place visuals, reserved image space.
 
 ### Ship bar (generated business sites)
 
@@ -210,6 +215,8 @@ Issues and PRs are welcome for clearer wording, better presets, and agent-tool i
 
 [MIT](LICENSE) © 2026 Moonrise
 
+UI craft adapted from [unslop](https://github.com/heydamir/unslop) by Damir Sokolovsky, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Full attribution in [`CREDITS.md`](CREDITS.md).
+
 ---
 
 <p align="center">
@@ -218,4 +225,6 @@ Issues and PRs are welcome for clearer wording, better presets, and agent-tool i
   <a href="https://trymoonrise.com/designer-tips.html">Designer Tips</a>
   ·
   <a href="https://github.com/trymoonrise/moonrise-special-prompt/blob/main/PROMPT.md">PROMPT.md</a>
+  ·
+  <a href="https://github.com/heydamir/unslop">unslop</a>
 </p>

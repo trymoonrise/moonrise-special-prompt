@@ -12,7 +12,8 @@ Ask the agent:
 
 ```text
 Fetch the Moonrise Special Prompt from the raw URL above and apply it to this screen.
-Keep every feature and all content.
+Keep every feature and all content. Use the unslop-style audit → direction → passes workflow,
+and treat https://github.com/heydamir/unslop as the professional UI craft reference.
 ```
 
 ## GitHub blob (best for humans)
