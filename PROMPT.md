@@ -121,7 +121,7 @@ If not, tighten direction before shipping polish.
 
 When the project is Moonrise Studio / trymoonrise.com:
 
-- Prefer patterns from https://trymoonrise.com/designer-tips.html and the snippets in https://github.com/trymoonrise/moonrise-special-prompt (`presets/`).
+- Prefer patterns from https://trymoonrise.com/designer-tips and the snippets in https://github.com/trymoonrise/moonrise-special-prompt (`presets/`).
 - Keep Moonrise ink and surfaces calm (near-black primary, soft fills, hairline borders).
 - Do not rename product features or change checkout, auth, or publish behavior while applying this prompt.
 
