@@ -22,10 +22,10 @@ and treat https://github.com/heydamir/unslop as the professional UI craft refere
 https://github.com/trymoonrise/moonrise-special-prompt/blob/main/PROMPT.md
 ```
 
-## Designer Tips live demos
+## UI Library live demos
 
 ```text
-https://trymoonrise.com/designer-tips.html#craft
+https://trymoonrise.com/ui-library.html#craft
 ```
 
 ## HTML iframe
@@ -33,7 +33,7 @@ https://trymoonrise.com/designer-tips.html#craft
 ```html
 <iframe
   title="Moonrise Special Prompt demos"
-  src="https://trymoonrise.com/designer-tips.html#craft"
+  src="https://trymoonrise.com/ui-library.html#craft"
   loading="lazy"
   referrerpolicy="no-referrer-when-downgrade"
   style="width:100%;min-height:720px;border:1px solid #e5e5e5;border-radius:12px;background:#fff;"
@@ -43,7 +43,7 @@ https://trymoonrise.com/designer-tips.html#craft
 ## Markdown badges
 
 ```md
-[![Designer Tips](https://img.shields.io/badge/Live_demos-Designer_Tips-111111?style=for-the-badge)](https://trymoonrise.com/designer-tips.html)
+[![UI Library](https://img.shields.io/badge/Live_demos-Designer_Tips-111111?style=for-the-badge)](https://trymoonrise.com/ui-library.html)
 [![Moonrise](https://img.shields.io/badge/Product-trymoonrise.com-0A7C66?style=for-the-badge)](https://trymoonrise.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2F6FED?style=for-the-badge)](LICENSE)
 ```

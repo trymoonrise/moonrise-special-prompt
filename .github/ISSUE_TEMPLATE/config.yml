@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Moonrise Designer Tips
-    url: https://trymoonrise.com/designer-tips.html
+  - name: Moonrise UI Library
+    url: https://trymoonrise.com/ui-library.html
     about: Live demos for loaders, buttons, fields, and the special prompt copy box.
   - name: Moonrise product site
     url: https://trymoonrise.com

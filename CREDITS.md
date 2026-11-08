@@ -12,4 +12,4 @@ unslop is not bundled here. Agents should treat it as the external reference for
 
 ## Moonrise
 
-Product, presets, Designer Tips demos, and this special-prompt packaging: [Moonrise](https://trymoonrise.com) / [trymoonrise/moonrise-special-prompt](https://github.com/trymoonrise/moonrise-special-prompt) (MIT).
+Product, presets, UI Library demos, and this special-prompt packaging: [Moonrise](https://trymoonrise.com) / [trymoonrise/moonrise-special-prompt](https://github.com/trymoonrise/moonrise-special-prompt) (MIT).

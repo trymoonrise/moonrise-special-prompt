@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://trymoonrise.com/designer-tips.html"><img src="https://img.shields.io/badge/Live_demos-Designer_Tips-111111?style=for-the-badge" alt="Designer Tips" /></a>
+  <a href="https://trymoonrise.com/ui-library.html"><img src="https://img.shields.io/badge/Live_demos-Designer_Tips-111111?style=for-the-badge" alt="UI Library" /></a>
   <a href="https://trymoonrise.com"><img src="https://img.shields.io/badge/Product-trymoonrise.com-0A7C66?style=for-the-badge" alt="Moonrise" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2F6FED?style=for-the-badge" alt="MIT" /></a>
   <a href="https://github.com/heydamir/unslop"><img src="https://img.shields.io/badge/UI_craft-unslop-111111?style=for-the-badge" alt="unslop" /></a>
@@ -39,7 +39,7 @@ Professional UI craft here is adapted from **[unslop](https://github.com/heydami
 | --- | --- |
 | Better UI without a redesign | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
 | Controls that already work | [`presets/`](presets/) — buttons, loaders, fields, toast + empty |
-| Live examples | [Designer Tips](https://trymoonrise.com/designer-tips.html) on trymoonrise.com |
+| Live examples | [UI Library](https://trymoonrise.com/ui-library.html) on trymoonrise.com |
 | Anti-slop craft reference | [heydamir/unslop](https://github.com/heydamir/unslop) |
 | Generated site quality | Ship bar rules so incomplete or broken pages do not ship |
 
@@ -83,7 +83,7 @@ HTML embed for docs sites:
 ```html
 <iframe
   title="Moonrise Special Prompt"
-  src="https://trymoonrise.com/designer-tips.html#craft"
+  src="https://trymoonrise.com/ui-library.html#craft"
   loading="lazy"
   style="width:100%;min-height:640px;border:1px solid #ddd;border-radius:12px;"
 ></iframe>
@@ -140,11 +140,11 @@ Small HTML/CSS snippets an agent can paste and recolor. Prefer these over invent
 
 Live interactive demos for the same ideas:
 
-**[Open Designer Tips →](https://trymoonrise.com/designer-tips.html)**
+**[Open UI Library →](https://trymoonrise.com/ui-library.html)**
 
 <p>
-  <a href="https://trymoonrise.com/designer-tips.html">
-    <img src="https://trymoonrise.com/assets/MoonriseLogo.png" alt="Open Designer Tips on Moonrise" width="48" />
+  <a href="https://trymoonrise.com/ui-library.html">
+    <img src="https://trymoonrise.com/assets/MoonriseLogo.png" alt="Open UI Library on Moonrise" width="48" />
   </a>
 </p>
 
@@ -181,12 +181,12 @@ Moonrise Builder runs this prompt, quality-gates the HTML, repairs once, then fa
 
 | Surface | Role |
 | --- | --- |
-| [Designer Tips](https://trymoonrise.com/designer-tips.html#craft) | Public copy button + live demos |
+| [UI Library](https://trymoonrise.com/ui-library.html#craft) | Public copy button + live demos |
 | Moonrise Builder agent | Loads the same prompt server-side when generating sites |
 | This GitHub repo | Source of truth for the public prompt + presets |
 
 Product: **[trymoonrise.com](https://trymoonrise.com)**  
-Studio docs and demos: **[Designer Tips](https://trymoonrise.com/designer-tips.html)**  
+Studio docs and demos: **[UI Library](https://trymoonrise.com/ui-library.html)**  
 Main product source: **[trymoonrise/moonrise](https://github.com/trymoonrise/moonrise)**
 
 ---
@@ -222,7 +222,7 @@ UI craft adapted from [unslop](https://github.com/heydamir/unslop) by Damir Soko
 <p align="center">
   <a href="https://trymoonrise.com">trymoonrise.com</a>
   ·
-  <a href="https://trymoonrise.com/designer-tips.html">Designer Tips</a>
+  <a href="https://trymoonrise.com/ui-library.html">UI Library</a>
   ·
   <a href="https://github.com/trymoonrise/moonrise-special-prompt/blob/main/PROMPT.md">PROMPT.md</a>
   ·
