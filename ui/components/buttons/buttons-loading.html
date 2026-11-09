@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loading state — Buttons — Moonrise UI</title>
+<link rel="stylesheet" href="../../css/ui-library.css">
+<link rel="stylesheet" href="../../css/ui-library-lab.css">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px;box-sizing:border-box;background:#f7f7f8}
+.dt-ref{width:min(28rem,100%)}
+.dt-ref .dt-overlay{position:relative;inset:auto;margin-top:16px;min-height:16rem;border-radius:14px}
+.dt-ref .dt-overlay[hidden]{display:grid!important}
+</style>
+</head>
+<body data-page="ui-library" class="dt-page dt-ref-page">
+<!--
+  Group: Components
+  Category: Buttons (buttons)
+  Type: Loading state
+  Id: buttons-loading
+  Classes: dt-stage, dt-stage-row, dt-btn, dt-btn-primary, dt-btn-morph, dt-btn-morph-label, dt-btn-morph-spin, dt-spin-ring, dt-spin-arc, dt-btn-morph-done
+  Elements: button, svg, circle
+  States: rest
+  Data: data-btn-loader-static
+  CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
+  Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
+  Keep this structure and these states. Change colors and labels only. Do not redraw the control.
+  Library: https://trymoonrise.com/ui-library#buttons-loading
+  Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/components/buttons/buttons-loading.html
+-->
+<div class="dt-ref">
+<div class="dt-stage dt-stage-row">
+              <button type="button" class="dt-btn dt-btn-primary dt-btn-morph" data-btn-loader-static>
+                <span class="dt-btn-morph-label">Save changes</span>
+                <span class="dt-btn-morph-spin" aria-hidden="true"><svg class="dt-spin-ring" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="8" fill="none" stroke="rgb(255 255 255 / 45%)" stroke-width="2.5"/><circle class="dt-spin-arc" cx="12" cy="12" r="8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="18 50"/></svg></span>
+                <span class="dt-btn-morph-done">Saved</span>
+              </button>
+            </div>
+
+</div>
+</body>
+</html>

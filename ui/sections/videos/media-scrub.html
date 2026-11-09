@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playback scrubber — Videos — Moonrise UI</title>
+<link rel="stylesheet" href="../../css/ui-library.css">
+<link rel="stylesheet" href="../../css/ui-library-lab.css">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px;box-sizing:border-box;background:#f7f7f8}
+.dt-ref{width:min(28rem,100%)}
+.dt-ref .dt-overlay{position:relative;inset:auto;margin-top:16px;min-height:16rem;border-radius:14px}
+.dt-ref .dt-overlay[hidden]{display:grid!important}
+</style>
+</head>
+<body data-page="ui-library" class="dt-page dt-ref-page">
+<!--
+  Group: Sections
+  Category: Videos (videos)
+  Type: Playback scrubber
+  Id: media-scrub
+  Classes: dt-stage, is-live, dt-scrub, dt-scrub-bar, dt-scrub-fill, dt-scrub-meta
+  Elements: container
+  States: is-live
+  Data: none
+  CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
+  Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
+  Keep this structure and these states. Change colors and labels only. Do not redraw the control.
+  Library: https://trymoonrise.com/ui-library#media-scrub
+  Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/sections/videos/media-scrub.html
+-->
+<div class="dt-ref">
+<div class="dt-stage is-live">
+              <div class="dt-scrub">
+                <div class="dt-scrub-bar"><div class="dt-scrub-fill"></div></div>
+                <div class="dt-scrub-meta"><span>0:42</span><span>3:18</span></div>
+              </div>
+            </div>
+
+</div>
+</body>
+</html>

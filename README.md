@@ -38,7 +38,8 @@ Professional UI craft here is adapted from **[unslop](https://github.com/heydami
 | You want | This repo gives you |
 | --- | --- |
 | Better UI without a redesign | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
-| Controls that already work | [`presets/`](presets/) — buttons, loaders, fields, toast + empty |
+| Every UI Library type as raw code | [`ui/`](ui/) — one folder per category, one HTML file per type |
+| A few pasteable starters | [`presets/`](presets/) — buttons, loaders, fields, toast + empty |
 | Live examples | [UI Library](https://trymoonrise.com/ui-library.html) on trymoonrise.com |
 | Anti-slop craft reference | [heydamir/unslop](https://github.com/heydamir/unslop) |
 | Generated site quality | Ship bar rules so incomplete or broken pages do not ship |
@@ -61,7 +62,7 @@ The agent should keep routes, data, and behavior, then fix spacing, type, color,
 ```text
 Read https://raw.githubusercontent.com/trymoonrise/moonrise-special-prompt/main/PROMPT.md
 and apply it to the current screen. Keep every feature and all content.
-Prefer presets from this repo when a control already exists.
+Download every file in ui/index.json before you invent a control.
 ```
 
 ### Embed the raw prompt
@@ -98,6 +99,12 @@ moonrise-special-prompt/
 ├── PROMPT.md                 # The special prompt (copy this)
 ├── README.md                 # You are here
 ├── LICENSE                   # MIT
+├── ui/                       # Every UI Library category and type, as raw code
+│   ├── index.json            # The list an agent downloads in full
+│   ├── css/                  # Shared styles and tokens
+│   ├── sections/             # One folder per section category
+│   ├── components/           # One folder per component category
+│   └── screens/              # One folder per screen category
 └── presets/
     ├── buttons.html          # Primary / secondary / ghost / danger / loading
     ├── loaders.html          # Spinner, skeleton, progress
@@ -127,9 +134,19 @@ Same pattern: full prompt first, then a short task. Do not ask the agent to inve
 
 ---
 
+## UI library (raw code)
+
+Every category and type from the [UI Library](https://trymoonrise.com/ui-library) is in [`ui/`](ui/). A category is a folder. A type is one HTML file: the markup, its class names, and a short properties note. Shared CSS is [`ui/css/ui-library.css`](ui/css/ui-library.css) and [`ui/css/ui-library-lab.css`](ui/css/ui-library-lab.css).
+
+The prompt tells the agent to download **every** file listed in [`ui/index.json`](ui/index.json) into `.moonrise-ui/` before it designs. That gives it a base for how each control is built. It then uses the closest type, keeps the structure and states, and changes colors and labels only.
+
+```text
+https://raw.githubusercontent.com/trymoonrise/moonrise-special-prompt/main/ui/index.json
+```
+
 ## Presets
 
-Small HTML/CSS snippets an agent can paste and recolor. Prefer these over inventing new controls.
+Small HTML/CSS snippets an agent can paste and recolor. The full set of types is in `ui/`. Prefer a type from `ui/` over inventing a new control.
 
 | File | Covers |
 | --- | --- |
@@ -183,7 +200,7 @@ Moonrise Builder runs this prompt, quality-gates the HTML, repairs once, then fa
 | --- | --- |
 | [UI Library](https://trymoonrise.com/ui-library.html#craft) | Public copy button + live demos |
 | Moonrise Builder agent | Loads the same prompt server-side when generating sites |
-| This GitHub repo | Source of truth for the public prompt + presets |
+| This GitHub repo | Source of truth for the public prompt, `ui/` raw code, and presets |
 
 Product: **[trymoonrise.com](https://trymoonrise.com)**  
 Studio docs and demos: **[UI Library](https://trymoonrise.com/ui-library.html)**  
@@ -193,7 +210,7 @@ Main product source: **[trymoonrise/moonrise](https://github.com/trymoonrise/moo
 
 ## What this is not
 
-- Not a component library or npm package.
+- Not an npm package. `ui/` is raw reference code for agents, not a runtime install.
 - Not a theme that restyles your whole app automatically.
 - Not permission to invent features, change checkout, or rewrite auth.
 - Not a substitute for your product’s real content and business facts.
@@ -203,7 +220,7 @@ Main product source: **[trymoonrise/moonrise](https://github.com/trymoonrise/moo
 ## Contributing
 
 1. Keep `PROMPT.md` the single source of the special prompt.
-2. Keep presets small, pasteable, and dependency-free.
+2. Keep presets small, pasteable, and dependency-free. `ui/` is exported from the Moonrise UI Library. Change a pattern there, then re-export. Do not hand-edit the generated HTML.
 3. Match the calm Moonrise visual language (near-black ink, soft fills, hairline borders).
 4. Open a pull request with a short “why” — one concern per PR when possible.
 
