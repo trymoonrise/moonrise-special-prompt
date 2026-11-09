@@ -97,6 +97,7 @@ HTML embed for docs sites:
 ```text
 moonrise-special-prompt/
 ├── PROMPT.md                 # The special prompt (copy this)
+├── before-after.html         # Playback: timeline, play, pause, ±15s
 ├── README.md                 # You are here
 ├── LICENSE                   # MIT
 ├── ui/                       # Every UI Library category and type, as raw code
@@ -143,6 +144,10 @@ The prompt tells the agent to download **every** file listed in [`ui/index.json`
 ```text
 https://raw.githubusercontent.com/trymoonrise/moonrise-special-prompt/main/ui/index.json
 ```
+
+## Before and after
+
+[`before-after.html`](before-after.html) is the playback an agent leaves with the work. Copy it into the project, keep the original files as **Before**, and record each pass through to **After**. The page is a simple HTML video: drag the timeline, press play or pause, or jump back and forward 15 seconds.
 
 ## Presets
 
