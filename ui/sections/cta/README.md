@@ -6,13 +6,7 @@ Shared CSS: [`../../css/ui-library.css`](../../css/ui-library.css), [`../../css/
 
 Change colors and labels only. Do not redraw the control.
 
-- [Text left](cta-split.html)
-- [Text right](cta-reverse.html)
-- [Stack](cta-stack.html)
-- [Bento](cta-bento.html)
-- [Meta rail](cta-rail.html)
-- [Inverse](cta-inverse.html)
-- [Reveal](cta-reveal.html)
-- [Band](cta-band.html)
-- [Narrow](cta-narrow.html)
-- [Strip](cta-strip.html)
+- [Photo band](cta-band.html)
+- [Split photo](cta-split.html)
+- [Two actions](cta-duo.html)
+- [Photo strip](cta-strip.html)

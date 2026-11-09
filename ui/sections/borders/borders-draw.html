@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Draw on — Borders — Moonrise UI</title>
+<title>Draw speeds — Borders — Moonrise UI</title>
 <link rel="stylesheet" href="../../css/ui-library.css">
 <link rel="stylesheet" href="../../css/ui-library-lab.css">
 <style>
@@ -17,12 +17,12 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
 <!--
   Group: Sections
   Category: Borders (borders)
-  Type: Draw on
+  Type: Draw speeds
   Id: borders-draw
-  Classes: dt-stage, lx-stretch, lx-edge, draw
-  Elements: container
-  States: rest
-  Data: data-demo, data-stage-tap
+  Classes: dt-stage, lx-stretch, lx-border-stage, lx-beams, lx-beam, is-quick, lx-beam-rotor, is-slow, is-thick
+  Elements: i
+  States: is-quick, is-slow, is-thick
+  Data: none
   CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
   Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
   Keep this structure and these states. Change colors and labels only. Do not redraw the control.
@@ -30,7 +30,7 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
   Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/sections/borders/borders-draw.html
 -->
 <div class="dt-ref">
-<div class="dt-stage lx-stretch" data-demo="lx-live" data-stage-tap="lx-live"><div class="lx-edge draw"></div></div>
+<div class="dt-stage lx-stretch lx-border-stage"><div class="lx-beams"><div class="lx-beam is-quick"><i class="lx-beam-rotor" aria-hidden="true"></i><span>Short and quick</span></div><div class="lx-beam is-slow"><i class="lx-beam-rotor" aria-hidden="true"></i><span>Long and slow</span></div><div class="lx-beam is-thick"><i class="lx-beam-rotor" aria-hidden="true"></i><span>3px thick</span></div></div></div>
 
 </div>
 </body>

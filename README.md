@@ -31,13 +31,13 @@
 
 ## Why this exists
 
-Moonrise builds calm, modern local-business websites. Agents often invent purple gradients, broken loaders, missing contact facts, or flashy motion. This repo is the shared **special prompt** Moonrise uses so every agent — inside Builder or in your own project — follows the same bar.
+Moonrise builds calm, modern local-business websites. Agents often invent purple gradients, broken loaders, missing contact facts, or flashy motion. This repo is the public **special prompt**: paste it into an agent that already has a project open.
 
 Professional UI craft here is adapted from **[unslop](https://github.com/heydamir/unslop)** by Damir Sokolovsky (CC BY 4.0): audit the slop, set a direction from the product, then polish pass by pass so the screen stops looking AI-generated. See [`CREDITS.md`](CREDITS.md).
 
 | You want | This repo gives you |
 | --- | --- |
-| Better UI without a redesign | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
+| Restyle the project you have open | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
 | Every UI Library type as raw code | [`ui/`](ui/) — one folder per category, one HTML file per type |
 | Live examples | [UI Library](https://trymoonrise.com/ui-library.html) on trymoonrise.com |
 | Anti-slop craft reference | [heydamir/unslop](https://github.com/heydamir/unslop) |
@@ -166,17 +166,9 @@ The full rules live in [`PROMPT.md`](PROMPT.md), aligned with [unslop](https://g
 - **Forms** — visible focus rings, plain-language errors.
 - **Layout** — mobile first, one composition, real product/place visuals, reserved image space.
 
-### Ship bar (generated business sites)
+### Finish bar
 
-When the agent assembles a full site (Moonrise Builder or similar), it must not ship until:
-
-1. Business name / phone / address / hours are exact when provided — no placeholders.
-2. Document is complete: doctype, viewport, nav, hero, content, contact form, footer.
-3. UI is modern, minimal, professional — calm surfaces, one accent.
-4. Components are smooth: no stuttering loops, cut-off text, or broken overlays.
-5. Prefer a simpler complete page over a broken fancy one.
-
-Moonrise Builder runs this prompt, quality-gates the HTML, repairs once, then falls back to a Craft-quality shell instead of publishing a broken page.
+The prompt is done only when the open project still does what it did, and the screen looks finished: quiet color, consistent spacing, one button style, and real empty, error, hover, and focus states.
 
 ---
 
@@ -185,7 +177,7 @@ Moonrise Builder runs this prompt, quality-gates the HTML, repairs once, then fa
 | Surface | Role |
 | --- | --- |
 | [UI Library](https://trymoonrise.com/ui-library.html#craft) | Public copy button + live demos |
-| Moonrise Builder agent | Loads the same prompt server-side when generating sites |
+| Moonrise Studio | Designs each business site from its own facts |
 | This GitHub repo | Source of truth for the public prompt and the `ui/` raw code |
 
 Product: **[trymoonrise.com](https://trymoonrise.com)**  

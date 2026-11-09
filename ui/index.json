@@ -6,7 +6,7 @@
     "ui/css/ui-library.css",
     "ui/css/ui-library-lab.css"
   ],
-  "count": 900,
+  "count": 837,
   "groups": [
     {
       "id": "sections",
@@ -18,403 +18,128 @@
           "folder": "ui/sections/announcements",
           "types": [
             {
+              "id": "announcements-error",
+              "title": "Status pill",
+              "file": "ui/sections/announcements/announcements-error.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-pill",
+                "is-error",
+                "lx-ann-chip",
+                "lx-ann-go"
+              ]
+            },
+            {
+              "id": "announcements-note",
+              "title": "Feature note",
+              "file": "ui/sections/announcements/announcements-note.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-note",
+                "lx-ann-ico",
+                "lx-ico",
+                "lx-ann-copy",
+                "lx-ann-link",
+                "lx-ann-x",
+                "sm"
+              ]
+            },
+            {
+              "id": "announcements-line",
+              "title": "Sentence",
+              "file": "ui/sections/announcements/announcements-line.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-pill",
+                "is-line",
+                "lx-ann-link"
+              ]
+            },
+            {
+              "id": "announcements-warn",
+              "title": "Warning bar",
+              "file": "ui/sections/announcements/announcements-warn.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-bar",
+                "is-warn",
+                "lx-ann-ico",
+                "lx-ico",
+                "lx-ann-copy",
+                "lx-ann-x",
+                "sm"
+              ]
+            },
+            {
+              "id": "announcements-offer",
+              "title": "Offer pill",
+              "file": "ui/sections/announcements/announcements-offer.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-pill",
+                "is-offer",
+                "lx-ann-chip"
+              ]
+            },
+            {
+              "id": "announcements-update",
+              "title": "Action card",
+              "file": "ui/sections/announcements/announcements-update.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-bar",
+                "is-update",
+                "lx-ann-ico",
+                "lx-ico",
+                "lx-ann-copy",
+                "lx-ann-btn"
+              ]
+            },
+            {
               "id": "announcements-split",
-              "title": "Text left",
+              "title": "Split links",
               "file": "ui/sections/announcements/announcements-split.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn"
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-pill",
+                "is-split",
+                "lx-ann-link",
+                "lx-ann-rule",
+                "lx-ann-more"
               ]
             },
             {
-              "id": "announcements-reverse",
-              "title": "Text right",
-              "file": "ui/sections/announcements/announcements-reverse.html",
+              "id": "announcements-quiet",
+              "title": "Quiet pill",
+              "file": "ui/sections/announcements/announcements-quiet.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "is-reverse",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "announcements-stack",
-              "title": "Stack",
-              "file": "ui/sections/announcements/announcements-stack.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-stack",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn"
-              ]
-            },
-            {
-              "id": "announcements-bento",
-              "title": "Bento",
-              "file": "ui/sections/announcements/announcements-bento.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bento",
-                "lx-bento-main",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-bento-side",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn",
-                "lx-bento-foot"
-              ]
-            },
-            {
-              "id": "announcements-rail",
-              "title": "Meta rail",
-              "file": "ui/sections/announcements/announcements-rail.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-rail",
-                "lx-kicker",
-                "lx-rail-main",
-                "lx-copy",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn"
-              ]
-            },
-            {
-              "id": "announcements-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/announcements/announcements-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-on-dark",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "announcements-reveal",
-              "title": "Reveal",
-              "file": "ui/sections/announcements/announcements-reveal.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-reveal",
-                "lx-rise",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn"
-              ]
-            },
-            {
-              "id": "announcements-band",
-              "title": "Band",
-              "file": "ui/sections/announcements/announcements-band.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-band",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-note",
-                "lx-dot",
-                "lx-textbtn"
-              ]
-            },
-            {
-              "id": "announcements-narrow",
-              "title": "Narrow",
-              "file": "ui/sections/announcements/announcements-narrow.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-narrow",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "announcements-strip",
-              "title": "Strip",
-              "file": "ui/sections/announcements/announcements-strip.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-strip",
-                "lx-btn"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ascii",
-          "title": "ASCII",
-          "folder": "ui/sections/ascii",
-          "types": [
-            {
-              "id": "ascii-word",
-              "title": "Wordmark",
-              "file": "ui/sections/ascii/ascii-word.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-moon",
-              "title": "Moon",
-              "file": "ui/sections/ascii/ascii-moon.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-rule",
-              "title": "Divider",
-              "file": "ui/sections/ascii/ascii-rule.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-loader",
-              "title": "Loader frames",
-              "file": "ui/sections/ascii/ascii-loader.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-face",
-              "title": "Portrait",
-              "file": "ui/sections/ascii/ascii-face.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-frame",
-              "title": "Frame",
-              "file": "ui/sections/ascii/ascii-frame.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-bars",
-              "title": "Bars",
-              "file": "ui/sections/ascii/ascii-bars.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-clock",
-              "title": "Clock",
-              "file": "ui/sections/ascii/ascii-clock.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-badge",
-              "title": "Badge",
-              "file": "ui/sections/ascii/ascii-badge.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-ascii"
-              ]
-            },
-            {
-              "id": "ascii-run",
-              "title": "Marquee",
-              "file": "ui/sections/ascii/ascii-run.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-clip",
-                "lx-marquee",
-                "lx-marquee-track"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "backgrounds",
-          "title": "Backgrounds",
-          "folder": "ui/sections/backgrounds",
-          "types": [
-            {
-              "id": "backgrounds-flat",
-              "title": "Flat",
-              "file": "ui/sections/backgrounds/backgrounds-flat.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "flat"
-              ]
-            },
-            {
-              "id": "backgrounds-grid",
-              "title": "Grid",
-              "file": "ui/sections/backgrounds/backgrounds-grid.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "grid"
-              ]
-            },
-            {
-              "id": "backgrounds-dots",
-              "title": "Dots",
-              "file": "ui/sections/backgrounds/backgrounds-dots.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "dots"
-              ]
-            },
-            {
-              "id": "backgrounds-grain",
-              "title": "Grain",
-              "file": "ui/sections/backgrounds/backgrounds-grain.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "grain",
-                "lx-shade-grain"
-              ]
-            },
-            {
-              "id": "backgrounds-diagonals",
-              "title": "Diagonals",
-              "file": "ui/sections/backgrounds/backgrounds-diagonals.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "diag"
-              ]
-            },
-            {
-              "id": "backgrounds-vignette",
-              "title": "Vignette",
-              "file": "ui/sections/backgrounds/backgrounds-vignette.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "vignette"
-              ]
-            },
-            {
-              "id": "backgrounds-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/backgrounds/backgrounds-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "inverse"
-              ]
-            },
-            {
-              "id": "backgrounds-split",
-              "title": "Split",
-              "file": "ui/sections/backgrounds/backgrounds-split.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "split"
-              ]
-            },
-            {
-              "id": "backgrounds-rings",
-              "title": "Rings",
-              "file": "ui/sections/backgrounds/backgrounds-rings.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "ring"
-              ]
-            },
-            {
-              "id": "backgrounds-paper",
-              "title": "Paper",
-              "file": "ui/sections/backgrounds/backgrounds-paper.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bg",
-                "paper"
+                "lx-ann-stage",
+                "lx-ann",
+                "lx-ann-pill",
+                "is-quiet"
               ]
             }
           ]
@@ -425,113 +150,101 @@
           "folder": "ui/sections/borders",
           "types": [
             {
-              "id": "borders-hair",
-              "title": "Hairline",
-              "file": "ui/sections/borders/borders-hair.html",
+              "id": "borders-marks",
+              "title": "Corner marks",
+              "file": "ui/sections/borders/borders-marks.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "hair"
-              ]
-            },
-            {
-              "id": "borders-dash",
-              "title": "Dashed",
-              "file": "ui/sections/borders/borders-dash.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-edge",
-                "dash"
-              ]
-            },
-            {
-              "id": "borders-double",
-              "title": "Double",
-              "file": "ui/sections/borders/borders-double.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-edge",
-                "double"
-              ]
-            },
-            {
-              "id": "borders-ticks",
-              "title": "Corner ticks",
-              "file": "ui/sections/borders/borders-ticks.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-edge",
-                "ticks"
+                "lx-border-stage",
+                "lx-bracket-card",
+                "lx-read"
               ]
             },
             {
               "id": "borders-draw",
-              "title": "Draw on",
+              "title": "Draw speeds",
               "file": "ui/sections/borders/borders-draw.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "draw"
+                "lx-border-stage",
+                "lx-beams",
+                "lx-beam",
+                "is-quick",
+                "lx-beam-rotor",
+                "is-slow",
+                "is-thick"
               ]
             },
             {
-              "id": "borders-focus",
-              "title": "Focus",
-              "file": "ui/sections/borders/borders-focus.html",
+              "id": "borders-ring",
+              "title": "Ring",
+              "file": "ui/sections/borders/borders-ring.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "focus"
+                "lx-border-stage",
+                "lx-ring",
+                "lx-ring-face",
+                "lx-ring-check",
+                "lx-ico",
+                "sm"
               ]
             },
             {
-              "id": "borders-inset",
-              "title": "Inset",
-              "file": "ui/sections/borders/borders-inset.html",
+              "id": "borders-drop",
+              "title": "Dashed drop",
+              "file": "ui/sections/borders/borders-drop.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "inset"
+                "lx-border-stage",
+                "lx-drop",
+                "lx-drop-ico",
+                "lx-ico",
+                "lx-drop-btn",
+                "sm"
               ]
             },
             {
-              "id": "borders-rule",
-              "title": "Section rule",
-              "file": "ui/sections/borders/borders-rule.html",
+              "id": "borders-arc",
+              "title": "Partial stroke",
+              "file": "ui/sections/borders/borders-arc.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "rule"
+                "lx-border-stage",
+                "lx-arc",
+                "lx-arc-rotor"
               ]
             },
             {
-              "id": "borders-ticket",
-              "title": "Ticket",
-              "file": "ui/sections/borders/borders-ticket.html",
+              "id": "borders-progress",
+              "title": "Progress edge",
+              "file": "ui/sections/borders/borders-progress.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "ticket"
+                "lx-border-stage",
+                "lx-progress",
+                "lx-progress-btn",
+                "lx-progress-line"
               ]
             },
             {
-              "id": "borders-fade",
-              "title": "Grey to ink",
-              "file": "ui/sections/borders/borders-fade.html",
+              "id": "borders-frames",
+              "title": "Color frames",
+              "file": "ui/sections/borders/borders-frames.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-edge",
-                "fade"
+                "lx-border-stage",
+                "lx-frames",
+                "lx-frame",
+                "is-blue",
+                "is-red",
+                "is-gold"
               ]
             }
           ]
@@ -542,169 +255,77 @@
           "folder": "ui/sections/cta",
           "types": [
             {
-              "id": "cta-split",
-              "title": "Text left",
-              "file": "ui/sections/cta/cta-split.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-split",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-actions",
-                "lx-btn-ghost"
-              ]
-            },
-            {
-              "id": "cta-reverse",
-              "title": "Text right",
-              "file": "ui/sections/cta/cta-reverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-split",
-                "is-reverse",
-                "lx-actions",
-                "lx-btn",
-                "lx-btn-ghost",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p"
-              ]
-            },
-            {
-              "id": "cta-stack",
-              "title": "Stack",
-              "file": "ui/sections/cta/cta-stack.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-stack",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-actions",
-                "lx-btn-ghost"
-              ]
-            },
-            {
-              "id": "cta-bento",
-              "title": "Bento",
-              "file": "ui/sections/cta/cta-bento.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bento",
-                "lx-bento-main",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-bento-side",
-                "lx-actions",
-                "lx-btn-ghost",
-                "lx-bento-foot"
-              ]
-            },
-            {
-              "id": "cta-rail",
-              "title": "Meta rail",
-              "file": "ui/sections/cta/cta-rail.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-rail",
-                "lx-kicker",
-                "lx-rail-main",
-                "lx-copy",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-actions",
-                "lx-btn-ghost"
-              ]
-            },
-            {
-              "id": "cta-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/cta/cta-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-on-dark",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "cta-reveal",
-              "title": "Reveal",
-              "file": "ui/sections/cta/cta-reveal.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-reveal",
-                "lx-rise",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-actions",
-                "lx-btn-ghost"
-              ]
-            },
-            {
               "id": "cta-band",
-              "title": "Band",
+              "title": "Photo band",
               "file": "ui/sections/cta/cta-band.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-band",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-actions",
-                "lx-btn-ghost"
+                "lx-media-stage",
+                "is-short",
+                "lx-shot",
+                "is-center",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-actions",
+                "lx-lime"
               ]
             },
             {
-              "id": "cta-narrow",
-              "title": "Narrow",
-              "file": "ui/sections/cta/cta-narrow.html",
+              "id": "cta-split",
+              "title": "Split photo",
+              "file": "ui/sections/cta/cta-split.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-narrow",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
+                "lx-media-stage",
+                "is-short",
+                "lx-shot",
+                "is-split",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-kicker",
+                "lx-shot-actions",
+                "lx-lime"
+              ]
+            },
+            {
+              "id": "cta-duo",
+              "title": "Two actions",
+              "file": "ui/sections/cta/cta-duo.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-media-stage",
+                "is-short",
+                "lx-shot",
+                "is-center",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-actions",
+                "lx-lime",
+                "is-ghost"
               ]
             },
             {
               "id": "cta-strip",
-              "title": "Strip",
+              "title": "Photo strip",
               "file": "ui/sections/cta/cta-strip.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-strip",
-                "lx-btn"
+                "lx-media-stage",
+                "is-short",
+                "lx-shot",
+                "is-strip",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-actions",
+                "lx-lime"
               ]
             }
           ]
@@ -715,162 +336,74 @@
           "folder": "ui/sections/clients",
           "types": [
             {
-              "id": "clients-split",
-              "title": "Text left",
-              "file": "ui/sections/clients/clients-split.html",
+              "id": "clients-faces",
+              "title": "Portrait row",
+              "file": "ui/sections/clients/clients-faces.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-logos"
+                "lx-client-stage",
+                "is-plain",
+                "lx-clients",
+                "lx-clients-faces",
+                "lx-faces"
               ]
             },
             {
-              "id": "clients-reverse",
-              "title": "Text right",
-              "file": "ui/sections/clients/clients-reverse.html",
+              "id": "clients-card",
+              "title": "Logo card",
+              "file": "ui/sections/clients/clients-card.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "is-reverse",
-                "lx-logos",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
+                "lx-client-stage",
+                "lx-clients",
+                "lx-clients-card",
+                "lx-mark-row",
+                "lx-mark"
               ]
             },
             {
-              "id": "clients-stack",
-              "title": "Stack",
-              "file": "ui/sections/clients/clients-stack.html",
+              "id": "clients-grid",
+              "title": "Plus grid",
+              "file": "ui/sections/clients/clients-grid.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-stack",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-logos"
+                "lx-client-stage",
+                "is-plain",
+                "lx-clients",
+                "lx-clients-grid",
+                "lx-plus-grid",
+                "lx-word"
               ]
             },
             {
-              "id": "clients-bento",
-              "title": "Bento",
-              "file": "ui/sections/clients/clients-bento.html",
+              "id": "clients-names",
+              "title": "Named marks",
+              "file": "ui/sections/clients/clients-names.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-bento",
-                "lx-bento-main",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-bento-side",
-                "lx-logos",
-                "lx-bento-foot"
-              ]
-            },
-            {
-              "id": "clients-rail",
-              "title": "Meta rail",
-              "file": "ui/sections/clients/clients-rail.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-rail",
-                "lx-kicker",
-                "lx-rail-main",
-                "lx-copy",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-logos"
-              ]
-            },
-            {
-              "id": "clients-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/clients/clients-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-on-dark",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "clients-reveal",
-              "title": "Reveal",
-              "file": "ui/sections/clients/clients-reveal.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-reveal",
-                "lx-rise",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-logos"
-              ]
-            },
-            {
-              "id": "clients-band",
-              "title": "Band",
-              "file": "ui/sections/clients/clients-band.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-band",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-logos"
-              ]
-            },
-            {
-              "id": "clients-narrow",
-              "title": "Narrow",
-              "file": "ui/sections/clients/clients-narrow.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-narrow",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
+                "lx-client-stage",
+                "is-plain",
+                "lx-clients",
+                "lx-clients-names",
+                "lx-name-row",
+                "is-center"
               ]
             },
             {
               "id": "clients-strip",
-              "title": "Strip",
+              "title": "Wordmark bar",
               "file": "ui/sections/clients/clients-strip.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-strip",
-                "lx-btn"
+                "lx-client-stage",
+                "is-strip",
+                "lx-clients",
+                "lx-clients-strip"
               ]
             }
           ]
@@ -881,169 +414,59 @@
           "folder": "ui/sections/comparisons",
           "types": [
             {
-              "id": "comparisons-split",
-              "title": "Text left",
-              "file": "ui/sections/comparisons/comparisons-split.html",
+              "id": "comparisons-word",
+              "title": "Split word",
+              "file": "ui/sections/comparisons/comparisons-word.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-cols",
-                "is-pick"
+                "lx-compare-stage",
+                "lx-compare",
+                "is-word",
+                "lx-compare-base",
+                "lx-compare-top",
+                "lx-compare-rule",
+                "lx-compare-knob"
               ]
             },
             {
-              "id": "comparisons-reverse",
-              "title": "Text right",
-              "file": "ui/sections/comparisons/comparisons-reverse.html",
+              "id": "comparisons-coast",
+              "title": "Photo slider",
+              "file": "ui/sections/comparisons/comparisons-coast.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "is-reverse",
-                "lx-cols",
-                "lx-kicker",
-                "lx-p",
-                "is-pick",
-                "lx-copy",
-                "lx-h",
-                "lx-btn"
+                "lx-compare-stage",
+                "lx-compare",
+                "is-photo",
+                "lx-compare-after",
+                "lx-compare-before",
+                "lx-compare-tag",
+                "is-before",
+                "is-after",
+                "lx-compare-rule",
+                "lx-compare-knob",
+                "is-chev"
               ]
             },
             {
-              "id": "comparisons-stack",
-              "title": "Stack",
-              "file": "ui/sections/comparisons/comparisons-stack.html",
+              "id": "comparisons-shop",
+              "title": "Shop slider",
+              "file": "ui/sections/comparisons/comparisons-shop.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-stack",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-cols",
-                "is-pick"
-              ]
-            },
-            {
-              "id": "comparisons-bento",
-              "title": "Bento",
-              "file": "ui/sections/comparisons/comparisons-bento.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-bento",
-                "lx-bento-main",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-bento-side",
-                "lx-cols",
-                "is-pick",
-                "lx-bento-foot"
-              ]
-            },
-            {
-              "id": "comparisons-rail",
-              "title": "Meta rail",
-              "file": "ui/sections/comparisons/comparisons-rail.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-rail",
-                "lx-kicker",
-                "lx-rail-main",
-                "lx-copy",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-cols",
-                "is-pick"
-              ]
-            },
-            {
-              "id": "comparisons-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/comparisons/comparisons-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-on-dark",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "comparisons-reveal",
-              "title": "Reveal",
-              "file": "ui/sections/comparisons/comparisons-reveal.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-reveal",
-                "lx-rise",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-cols",
-                "is-pick"
-              ]
-            },
-            {
-              "id": "comparisons-band",
-              "title": "Band",
-              "file": "ui/sections/comparisons/comparisons-band.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-band",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-cols",
-                "is-pick"
-              ]
-            },
-            {
-              "id": "comparisons-narrow",
-              "title": "Narrow",
-              "file": "ui/sections/comparisons/comparisons-narrow.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-narrow",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "comparisons-strip",
-              "title": "Strip",
-              "file": "ui/sections/comparisons/comparisons-strip.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-strip",
-                "lx-btn"
+                "lx-compare-stage",
+                "lx-compare",
+                "is-photo",
+                "lx-compare-after",
+                "lx-compare-before",
+                "lx-compare-tag",
+                "is-before",
+                "is-after",
+                "lx-compare-rule",
+                "lx-compare-knob",
+                "is-chev"
               ]
             }
           ]
@@ -1067,40 +490,77 @@
               ]
             },
             {
-              "id": "docks-icons",
-              "title": "Icons",
-              "file": "ui/sections/docks/docks-icons.html",
+              "id": "docks-tools",
+              "title": "Tools",
+              "file": "ui/sections/docks/docks-tools.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-dock",
-                "lx-ico",
-                "sm"
-              ]
-            },
-            {
-              "id": "docks-labeled",
-              "title": "Labeled",
-              "file": "ui/sections/docks/docks-labeled.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-dock",
-                "is-on"
-              ]
-            },
-            {
-              "id": "docks-vertical",
-              "title": "Vertical",
-              "file": "ui/sections/docks/docks-vertical.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-dock",
-                "vert",
+                "lx-dock-stage",
+                "lx-float",
+                "is-tools",
                 "is-on",
+                "lx-ico"
+              ]
+            },
+            {
+              "id": "docks-circles",
+              "title": "Circles",
+              "file": "ui/sections/docks/docks-circles.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-dock-stage",
+                "lx-float",
+                "is-orbs",
+                "is-on",
+                "lx-ico"
+              ]
+            },
+            {
+              "id": "docks-mark",
+              "title": "Center mark",
+              "file": "ui/sections/docks/docks-mark.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-dock-stage",
+                "lx-float",
+                "is-mark",
                 "lx-ico",
-                "sm"
+                "lx-brand",
+                "is-on",
+                "lx-brand-tip",
+                "lx-brand-mark"
+              ]
+            },
+            {
+              "id": "docks-quiet",
+              "title": "Quiet",
+              "file": "ui/sections/docks/docks-quiet.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-dock-stage",
+                "lx-float",
+                "is-quiet",
+                "is-on",
+                "lx-ico"
+              ]
+            },
+            {
+              "id": "docks-outline",
+              "title": "Outline",
+              "file": "ui/sections/docks/docks-outline.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-dock-stage",
+                "is-gray",
+                "lx-float",
+                "is-line",
+                "is-on",
+                "lx-ico"
               ]
             },
             {
@@ -1110,77 +570,26 @@
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-dock",
+                "lx-dock-stage",
+                "lx-float",
+                "is-inbox",
                 "is-on",
                 "lx-ico",
-                "sm",
-                "lx-badge",
-                "go"
+                "lx-count"
               ]
             },
             {
-              "id": "docks-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/docks/docks-inverse.html",
+              "id": "docks-labels",
+              "title": "Labels",
+              "file": "ui/sections/docks/docks-labels.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-on-dark",
-                "lx-dock",
+                "lx-dock-stage",
+                "lx-float",
+                "is-modes",
                 "lx-ico",
-                "sm"
-              ]
-            },
-            {
-              "id": "docks-lift",
-              "title": "Lift",
-              "file": "ui/sections/docks/docks-lift.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-dock",
-                "lx-ico",
-                "sm",
                 "is-on"
-              ]
-            },
-            {
-              "id": "docks-split",
-              "title": "Split",
-              "file": "ui/sections/docks/docks-split.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-dock",
-                "lx-ico",
-                "sm",
-                "is-on"
-              ]
-            },
-            {
-              "id": "docks-compact",
-              "title": "Compact",
-              "file": "ui/sections/docks/docks-compact.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-dock",
-                "lx-ico",
-                "sm"
-              ]
-            },
-            {
-              "id": "docks-with-caption",
-              "title": "With caption",
-              "file": "ui/sections/docks/docks-with-caption.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-dock",
-                "is-on",
-                "lx-ico",
-                "sm",
-                "lx-meta"
               ]
             }
           ]
@@ -1986,190 +1395,94 @@
           "folder": "ui/sections/heroes",
           "types": [
             {
+              "id": "heroes-center",
+              "title": "Centered photo",
+              "file": "ui/sections/heroes/heroes-center.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "lx-media-stage",
+                "lx-shot",
+                "is-center",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-actions",
+                "lx-lime",
+                "is-round"
+              ]
+            },
+            {
               "id": "heroes-split",
-              "title": "Text left",
+              "title": "Photo and copy",
               "file": "ui/sections/heroes/heroes-split.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block"
+                "lx-media-stage",
+                "lx-shot",
+                "is-split",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-kicker",
+                "lx-shot-actions",
+                "lx-lime"
               ]
             },
             {
-              "id": "heroes-reverse",
-              "title": "Text right",
-              "file": "ui/sections/heroes/heroes-reverse.html",
+              "id": "heroes-video",
+              "title": "Video",
+              "file": "ui/sections/heroes/heroes-video.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-split",
-                "is-reverse",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
+                "lx-media-stage",
+                "lx-shot",
+                "is-center",
+                "lx-shot-still",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-actions",
+                "lx-lime",
+                "is-round"
               ]
             },
             {
-              "id": "heroes-stack",
-              "title": "Stack",
-              "file": "ui/sections/heroes/heroes-stack.html",
+              "id": "heroes-bottom",
+              "title": "Bottom line",
+              "file": "ui/sections/heroes/heroes-bottom.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-stack",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block"
+                "lx-media-stage",
+                "lx-shot",
+                "is-bottom",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-kicker",
+                "lx-shot-actions",
+                "lx-lime"
               ]
             },
             {
-              "id": "heroes-bento",
-              "title": "Bento",
-              "file": "ui/sections/heroes/heroes-bento.html",
+              "id": "heroes-card",
+              "title": "Card on a photo",
+              "file": "ui/sections/heroes/heroes-card.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-bento",
-                "lx-bento-main",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-bento-side",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block",
-                "lx-bento-foot"
-              ]
-            },
-            {
-              "id": "heroes-rail",
-              "title": "Meta rail",
-              "file": "ui/sections/heroes/heroes-rail.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-rail",
-                "lx-kicker",
-                "lx-rail-main",
-                "lx-copy",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block"
-              ]
-            },
-            {
-              "id": "heroes-inverse",
-              "title": "Inverse",
-              "file": "ui/sections/heroes/heroes-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-on-dark",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "heroes-reveal",
-              "title": "Reveal",
-              "file": "ui/sections/heroes/heroes-reveal.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-reveal",
-                "lx-rise",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block"
-              ]
-            },
-            {
-              "id": "heroes-band",
-              "title": "Band",
-              "file": "ui/sections/heroes/heroes-band.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-band",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn",
-                "lx-product",
-                "lx-product-bar",
-                "lx-product-line",
-                "short",
-                "lx-product-block"
-              ]
-            },
-            {
-              "id": "heroes-narrow",
-              "title": "Narrow",
-              "file": "ui/sections/heroes/heroes-narrow.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-narrow",
-                "lx-copy",
-                "lx-kicker",
-                "lx-h",
-                "lx-p",
-                "lx-btn"
-              ]
-            },
-            {
-              "id": "heroes-strip",
-              "title": "Strip",
-              "file": "ui/sections/heroes/heroes-strip.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-strip",
-                "lx-btn"
+                "lx-media-stage",
+                "lx-shot",
+                "is-card",
+                "lx-shot-media",
+                "lx-shot-veil",
+                "lx-shot-copy",
+                "lx-shot-kicker",
+                "lx-shot-actions",
+                "lx-lime"
               ]
             }
           ]
@@ -4130,104 +3443,18 @@
               ]
             },
             {
-              "id": "videos-poster",
-              "title": "Poster",
-              "file": "ui/sections/videos/videos-poster.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video"
-              ]
-            },
-            {
               "id": "videos-play",
-              "title": "Play",
+              "title": "Click to play",
               "file": "ui/sections/videos/videos-play.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-video",
-                "lx-btn",
-                "lx-btn-ghost"
-              ]
-            },
-            {
-              "id": "videos-controls",
-              "title": "Controls",
-              "file": "ui/sections/videos/videos-controls.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video",
-                "bar"
-              ]
-            },
-            {
-              "id": "videos-mute",
-              "title": "Quiet",
-              "file": "ui/sections/videos/videos-mute.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video",
-                "lx-meta",
-                "bar"
-              ]
-            },
-            {
-              "id": "videos-caption",
-              "title": "Caption",
-              "file": "ui/sections/videos/videos-caption.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video",
-                "lx-badge",
-                "on-dark"
-              ]
-            },
-            {
-              "id": "videos-wide",
-              "title": "16:9",
-              "file": "ui/sections/videos/videos-wide.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video"
-              ]
-            },
-            {
-              "id": "videos-tall",
-              "title": "9:16",
-              "file": "ui/sections/videos/videos-tall.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video"
-              ]
-            },
-            {
-              "id": "videos-list",
-              "title": "Playlist",
-              "file": "ui/sections/videos/videos-list.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-row",
-                "lx-meta"
-              ]
-            },
-            {
-              "id": "videos-ended",
-              "title": "Ended",
-              "file": "ui/sections/videos/videos-ended.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-video",
-                "lx-p",
-                "lx-btn",
-                "lx-btn-ghost"
+                "lx-player-stage",
+                "lx-player",
+                "lx-player-cue",
+                "lx-player-stem",
+                "lx-player-frame",
+                "lx-player-title"
               ]
             }
           ]
@@ -5745,164 +4972,92 @@
           "folder": "ui/components/dashboards",
           "types": [
             {
-              "id": "dashboards-kpi-row",
-              "title": "KPI row",
-              "file": "ui/components/dashboards/dashboards-kpi-row.html",
+              "id": "dashboards-shell",
+              "title": "Workspace",
+              "file": "ui/components/dashboards/dashboards-shell.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
+                "lx-dash-stage",
+                "lx-dash",
+                "lx-dash-side",
+                "lx-dash-brand",
+                "lx-dash-nav",
                 "is-on",
-                "lx-main",
-                "lx-stats",
-                "lx-stat"
+                "lx-ico",
+                "lx-dash-count",
+                "lx-dash-user",
+                "lx-dash-main",
+                "lx-dash-area",
+                "lx-dash-days"
               ]
             },
             {
-              "id": "dashboards-chart-and-list",
-              "title": "Chart and list",
-              "file": "ui/components/dashboards/dashboards-chart-and-list.html",
+              "id": "dashboards-bento",
+              "title": "Stat grid",
+              "file": "ui/components/dashboards/dashboards-bento.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-row",
-                "lx-meta"
-              ]
-            },
-            {
-              "id": "dashboards-sidebar",
-              "title": "Sidebar",
-              "file": "ui/components/dashboards/dashboards-sidebar.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-h",
-                "lx-row",
-                "lx-badge",
-                "go"
-              ]
-            },
-            {
-              "id": "dashboards-activity",
-              "title": "Activity",
-              "file": "ui/components/dashboards/dashboards-activity.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-row",
-                "lx-meta"
+                "lx-dash-stage",
+                "is-dark",
+                "lx-bento-board",
+                "is-share",
+                "is-growth",
+                "lx-dash-bars",
+                "is-awards",
+                "is-score"
               ]
             },
             {
               "id": "dashboards-billing",
-              "title": "Billing",
+              "title": "Billing history",
               "file": "ui/components/dashboards/dashboards-billing.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-stat",
-                "lx-row"
+                "lx-dash-stage",
+                "lx-bill",
+                "lx-bill-kicker",
+                "lx-bill-scroll",
+                "lx-bill-status",
+                "is-good",
+                "is-bad",
+                "lx-bill-more"
               ]
             },
             {
-              "id": "dashboards-empty",
-              "title": "Empty",
-              "file": "ui/components/dashboards/dashboards-empty.html",
+              "id": "dashboards-revenue",
+              "title": "Revenue",
+              "file": "ui/components/dashboards/dashboards-revenue.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-empty",
-                "lx-h",
-                "lx-btn"
+                "lx-dash-stage",
+                "lx-rev",
+                "lx-rev-mark",
+                "lx-rev-total",
+                "lx-rev-delta",
+                "lx-rev-rows"
               ]
             },
             {
-              "id": "dashboards-skeleton",
-              "title": "Skeleton",
-              "file": "ui/components/dashboards/dashboards-skeleton.html",
+              "id": "dashboards-balance",
+              "title": "Balance",
+              "file": "ui/components/dashboards/dashboards-balance.html",
               "classes": [
                 "dt-stage",
                 "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-skel"
-              ]
-            },
-            {
-              "id": "dashboards-alert",
-              "title": "Alert",
-              "file": "ui/components/dashboards/dashboards-alert.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-alert",
-                "is-warn",
-                "lx-dot",
-                "warn"
-              ]
-            },
-            {
-              "id": "dashboards-two-columns",
-              "title": "Two columns",
-              "file": "ui/components/dashboards/dashboards-two-columns.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-tall",
-                "lx-app",
-                "lx-side",
-                "is-on",
-                "lx-main",
-                "lx-cols",
-                "lx-kicker",
-                "lx-mono"
-              ]
-            },
-            {
-              "id": "dashboards-inverse",
-              "title": "Inverse header",
-              "file": "ui/components/dashboards/dashboards-inverse.html",
-              "classes": [
-                "dt-stage",
-                "lx-stretch",
-                "lx-tall",
-                "lx-panel",
-                "lx-p"
+                "lx-dash-stage",
+                "lx-bal",
+                "lx-bal-meta",
+                "is-down",
+                "lx-bal-chart",
+                "lx-bal-grid",
+                "lx-bal-guide",
+                "lx-bal-line",
+                "lx-dash-days",
+                "is-long"
               ]
             }
           ]

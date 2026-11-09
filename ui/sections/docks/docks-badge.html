@@ -19,10 +19,10 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
   Category: Docks (docks)
   Type: Badge
   Id: docks-badge
-  Classes: dt-stage, lx-stretch, lx-dock, is-on, lx-ico, sm, lx-badge, go
-  Elements: button, svg, path
-  States: is-on
-  Data: none
+  Classes: dt-stage, lx-stretch, lx-dock-stage, lx-float, is-inbox, is-on, lx-ico, lx-count
+  Elements: button, svg, path, circle, rect
+  States: is-inbox, is-on
+  Data: data-lx-opt
   CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
   Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
   Keep this structure and these states. Change colors and labels only. Do not redraw the control.
@@ -30,7 +30,7 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
   Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/sections/docks/docks-badge.html
 -->
 <div class="dt-ref">
-<div class="dt-stage lx-stretch"><div class="lx-dock"><button type="button" class="is-on"><svg class="lx-ico sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3.5h7l5 5V20.5H7z"/><path d="M14 3.5V9h5"/></svg></button><button type="button"><svg class="lx-ico sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l8.5 15h-17z"/><path d="M12 10v4M12 16.6v.4"/></svg></button><span class="lx-badge go">3</span></div></div>
+<div class="dt-stage lx-stretch lx-dock-stage"><div class="lx-float is-inbox"><button type="button" data-lx-opt aria-label="Home" class="is-on"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.2 12 4.5l8 6.7V20H4z"/><path d="M10 20v-6h4v6"/></svg></button><button type="button" data-lx-opt aria-label="Search"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16.5 16.5L21 21"/></svg></button><button type="button" data-lx-opt aria-label="Folder"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 7.2h5.6l1.8 2H20.5V19a1.4 1.4 0 0 1-1.4 1.4H4.9A1.4 1.4 0 0 1 3.5 19z"/></svg></button><button type="button" data-lx-opt aria-label="Mail"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span class="lx-count">3</span></button><button type="button" data-lx-opt aria-label="Music"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17.6V6.2L18 4.2v9.2"/><circle cx="7.2" cy="17.6" r="2.1"/><circle cx="16.2" cy="15.4" r="2.1"/></svg></button><button type="button" data-lx-opt aria-label="Settings"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.2 2h-.4a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.4a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg></button><button type="button" data-lx-opt aria-label="Trash"><svg class="lx-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7.2h14M9.2 7.1V5h5.6v2.1M7.2 7.2l.8 12.2h8l.8-12.2"/></svg></button></div></div>
 
 </div>
 </body>

@@ -6,13 +6,11 @@ Shared CSS: [`../../css/ui-library.css`](../../css/ui-library.css), [`../../css/
 
 Change colors and labels only. Do not redraw the control.
 
-- [Text left](announcements-split.html)
-- [Text right](announcements-reverse.html)
-- [Stack](announcements-stack.html)
-- [Bento](announcements-bento.html)
-- [Meta rail](announcements-rail.html)
-- [Inverse](announcements-inverse.html)
-- [Reveal](announcements-reveal.html)
-- [Band](announcements-band.html)
-- [Narrow](announcements-narrow.html)
-- [Strip](announcements-strip.html)
+- [Status pill](announcements-error.html)
+- [Feature note](announcements-note.html)
+- [Sentence](announcements-line.html)
+- [Warning bar](announcements-warn.html)
+- [Offer pill](announcements-offer.html)
+- [Action card](announcements-update.html)
+- [Split links](announcements-split.html)
+- [Quiet pill](announcements-quiet.html)

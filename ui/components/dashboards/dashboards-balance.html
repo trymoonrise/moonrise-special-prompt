@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Balance — Dashboards — Moonrise UI</title>
+<link rel="stylesheet" href="../../css/ui-library.css">
+<link rel="stylesheet" href="../../css/ui-library-lab.css">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px;box-sizing:border-box;background:#f7f7f8}
+.dt-ref{width:min(28rem,100%)}
+.dt-ref .dt-overlay{position:relative;inset:auto;margin-top:16px;min-height:16rem;border-radius:14px}
+.dt-ref .dt-overlay[hidden]{display:grid!important}
+</style>
+</head>
+<body data-page="ui-library" class="dt-page dt-ref-page">
+<!--
+  Group: Components
+  Category: Dashboards (dashboards)
+  Type: Balance
+  Id: dashboards-balance
+  Classes: dt-stage, lx-stretch, lx-dash-stage, lx-bal, lx-bal-meta, is-down, lx-bal-chart, lx-bal-grid, lx-bal-guide, lx-bal-line, lx-dash-days, is-long
+  Elements: article, p, h3, strong, em, svg, g, path, text, circle
+  States: is-down, is-long
+  Data: none
+  CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
+  Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
+  Keep this structure and these states. Change colors and labels only. Do not redraw the control.
+  Library: https://trymoonrise.com/ui-library#dashboards-balance
+  Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/components/dashboards/dashboards-balance.html
+-->
+<div class="dt-ref">
+<div class="dt-stage lx-stretch lx-dash-stage"><article class="lx-bal"><p>Current balance</p><h3>$2,480.00 <span>+12.7% last 7 days</span></h3><div class="lx-bal-meta"><span>Today <strong>$186</strong> <em>+8%</em></span><span>High <strong>$420</strong></span><span>Low <strong>$90</strong></span><span class="is-down">Change <strong>-0.4%</strong></span></div><svg class="lx-bal-chart" viewBox="0 0 700 210" role="img" aria-label="Balance over the last month"><g class="lx-bal-grid"><path d="M48 20 H680 M48 68 H680 M48 116 H680 M48 164 H680"/></g><text x="8" y="24">$600</text><text x="8" y="72">$450</text><text x="8" y="120">$300</text><text x="8" y="184">$150</text><text x="16" y="204">$0</text><path class="lx-bal-guide" d="M390 16 V176"/><path class="lx-bal-line" d="M72 168 C110 150 130 140 156 128 S200 118 236 100 S290 78 330 84 S390 150 390 132 S470 90 520 70 S600 40 640 48 S680 70 688 88"/><circle cx="72" cy="168" r="5"/><circle cx="390" cy="132" r="5"/><circle cx="640" cy="48" r="5"/></svg><div class="lx-dash-days is-long"><span>Jan 1</span><span>Jan 8</span><span>Jan 15</span><span>Jan 22</span><span>Jan 29</span></div></article></div>
+
+</div>
+</body>
+</html>

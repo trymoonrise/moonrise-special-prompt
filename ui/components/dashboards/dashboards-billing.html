@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Billing — Dashboards — Moonrise UI</title>
+<title>Billing history — Dashboards — Moonrise UI</title>
 <link rel="stylesheet" href="../../css/ui-library.css">
 <link rel="stylesheet" href="../../css/ui-library-lab.css">
 <style>
@@ -17,12 +17,12 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
 <!--
   Group: Components
   Category: Dashboards (dashboards)
-  Type: Billing
+  Type: Billing history
   Id: dashboards-billing
-  Classes: dt-stage, lx-stretch, lx-tall, lx-app, lx-side, is-on, lx-main, lx-stat, lx-row
-  Elements: button, strong
-  States: is-on
-  Data: data-lx-opt
+  Classes: dt-stage, lx-stretch, lx-dash-stage, lx-bill, lx-bill-kicker, lx-bill-scroll, lx-bill-status, is-good, is-bad, lx-bill-more
+  Elements: section, p, svg, rect, path, h3, table, thead, tr, th, tbody, td, strong, em, button
+  States: is-good, is-bad
+  Data: none
   CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
   Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
   Keep this structure and these states. Change colors and labels only. Do not redraw the control.
@@ -30,7 +30,7 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
   Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/components/dashboards/dashboards-billing.html
 -->
 <div class="dt-ref">
-<div class="dt-stage lx-stretch lx-tall"><div class="lx-app"><div class="lx-side"><button type="button" class="is-on" data-lx-opt>Plan</button><button type="button" class="" data-lx-opt>Invoices</button></div><div class="lx-main"><div class="lx-stat"><strong>$48</strong><span>this month</span></div><div class="lx-row"><span>Plan</span><span>Site</span></div></div></div></div>
+<div class="dt-stage lx-stretch lx-dash-stage"><section class="lx-bill"><p class="lx-bill-kicker"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M4 10h16"/></svg>Billing</p><h3>Billing history</h3><p>Invoices for the site plan.</p><div class="lx-bill-scroll"><table><thead><tr><th>Date</th><th>Description</th><th>Amount</th><th>Status</th><th>Download</th></tr></thead><tbody><tr><td><strong>Jan 1, 2026</strong><em>INV-106</em></td><td>Site plan</td><td>$48.00</td><td><span class="lx-bill-status is-good">Paid</span></td><td><button type="button" aria-label="Download INV-106"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 11.5 12 16l4.5-4.5M5 19h14"/></svg></button></td></tr><tr><td><strong>Dec 1, 2025</strong><em>INV-105</em></td><td>Site plan</td><td>$48.00</td><td><span class="lx-bill-status is-good">Paid</span></td><td><button type="button" aria-label="Download INV-105"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 11.5 12 16l4.5-4.5M5 19h14"/></svg></button></td></tr><tr><td><strong>Nov 1, 2025</strong><em>INV-104</em></td><td>Site plan</td><td>$48.00</td><td><span class="lx-bill-status is-good">Paid</span></td><td><button type="button" aria-label="Download INV-104"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 11.5 12 16l4.5-4.5M5 19h14"/></svg></button></td></tr><tr><td><strong>Oct 1, 2025</strong><em>INV-103</em></td><td>Site plan</td><td>$48.00</td><td><span class="lx-bill-status is-bad">Failed</span></td><td><button type="button" aria-label="Download INV-103"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 11.5 12 16l4.5-4.5M5 19h14"/></svg></button></td></tr><tr><td><strong>Sep 1, 2025</strong><em>INV-102</em></td><td>Site plan</td><td>$48.00</td><td><span class="lx-bill-status is-good">Paid</span></td><td><button type="button" aria-label="Download INV-102"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 11.5 12 16l4.5-4.5M5 19h14"/></svg></button></td></tr></tbody></table></div><button type="button" class="lx-bill-more">View all invoices</button></section></div>
 
 </div>
 </body>

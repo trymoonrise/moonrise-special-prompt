@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Strip — Calls to action — Moonrise UI</title>
+<title>Photo strip — Calls to action — Moonrise UI</title>
 <link rel="stylesheet" href="../../css/ui-library.css">
 <link rel="stylesheet" href="../../css/ui-library-lab.css">
 <style>
@@ -17,11 +17,11 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
 <!--
   Group: Sections
   Category: Calls to action (cta)
-  Type: Strip
+  Type: Photo strip
   Id: cta-strip
-  Classes: dt-stage, lx-stretch, lx-strip, lx-btn
-  Elements: strong, button
-  States: rest
+  Classes: dt-stage, lx-stretch, lx-media-stage, is-short, lx-shot, is-strip, lx-shot-media, lx-shot-veil, lx-shot-copy, lx-shot-actions, lx-lime
+  Elements: article, img, h3, button
+  States: is-short, is-strip
   Data: none
   CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
   Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
@@ -30,7 +30,7 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
   Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/sections/cta/cta-strip.html
 -->
 <div class="dt-ref">
-<div class="dt-stage lx-stretch"><div class="lx-strip"><strong>Publish the Harbor site</strong><span>One live link, with the hours and the phone on the first screen.</span><button type="button" class="lx-btn">Publish</button></div></div>
+<div class="dt-stage lx-stretch lx-media-stage is-short"><article class="lx-shot is-strip"><img class="lx-shot-media" src="assets/library/hero-coffee.jpg" alt=""><div class="lx-shot-veil" aria-hidden="true"></div><div class="lx-shot-copy"><h3>Coffee on Pike is ready to publish.</h3><div class="lx-shot-actions"><button type="button" class="lx-lime">Publish</button></div></div></article></div>
 
 </div>
 </body>

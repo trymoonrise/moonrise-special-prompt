@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Play — Videos — Moonrise UI</title>
+<title>Click to play — Videos — Moonrise UI</title>
 <link rel="stylesheet" href="../../css/ui-library.css">
 <link rel="stylesheet" href="../../css/ui-library-lab.css">
 <style>
@@ -17,12 +17,12 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
 <!--
   Group: Sections
   Category: Videos (videos)
-  Type: Play
+  Type: Click to play
   Id: videos-play
-  Classes: dt-stage, lx-stretch, lx-video, lx-btn, lx-btn-ghost
-  Elements: button
-  States: lx-btn-ghost
-  Data: none
+  Classes: dt-stage, lx-stretch, lx-player-stage, lx-player, lx-player-cue, lx-player-stem, lx-player-frame, lx-player-title
+  Elements: figure, p, i, button, video
+  States: rest
+  Data: data-lx-player
   CSS: ui/css/ui-library.css, ui/css/ui-library-lab.css
   Tokens: ink #111, muted #5c5c5c, quiet #8a8a8a, line #ebebeb, fill #f4f4f5, surface #fff, stage #f7f7f8, action #1f6fed, danger #d92d20, ok #067647, radius 18/14.
   Keep this structure and these states. Change colors and labels only. Do not redraw the control.
@@ -30,7 +30,7 @@ body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 16px
   Repo: https://github.com/trymoonrise/moonrise-special-prompt/blob/main/ui/sections/videos/videos-play.html
 -->
 <div class="dt-ref">
-<div class="dt-stage lx-stretch"><div class="lx-video"><button type="button" class="lx-btn lx-btn-ghost">Play</button></div></div>
+<div class="dt-stage lx-stretch lx-player-stage"><figure class="lx-player"><p class="lx-player-cue">Click the video to play</p><i class="lx-player-stem" aria-hidden="true"></i><button type="button" class="lx-player-frame" data-lx-player aria-label="Play video"><video muted loop playsinline preload="metadata" src="assets/library/hero-ocean.mp4"></video><span class="lx-player-title">the coast, in motion</span></button></figure></div>
 
 </div>
 </body>
