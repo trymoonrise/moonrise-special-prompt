@@ -39,7 +39,6 @@ Professional UI craft here is adapted from **[unslop](https://github.com/heydami
 | --- | --- |
 | Better UI without a redesign | [`PROMPT.md`](PROMPT.md) — paste the whole file into your agent |
 | Every UI Library type as raw code | [`ui/`](ui/) — one folder per category, one HTML file per type |
-| A few pasteable starters | [`presets/`](presets/) — buttons, loaders, fields, toast + empty |
 | Live examples | [UI Library](https://trymoonrise.com/ui-library.html) on trymoonrise.com |
 | Anti-slop craft reference | [heydamir/unslop](https://github.com/heydamir/unslop) |
 | Generated site quality | Ship bar rules so incomplete or broken pages do not ship |
@@ -106,11 +105,6 @@ moonrise-special-prompt/
 │   ├── sections/             # One folder per section category
 │   ├── components/           # One folder per component category
 │   └── screens/              # One folder per screen category
-└── presets/
-    ├── buttons.html          # Primary / secondary / ghost / danger / loading
-    ├── loaders.html          # Spinner, skeleton, progress
-    ├── field.html            # Text field with focus + error
-    └── toast-empty.html      # Toast + empty state
 ```
 
 ---
@@ -149,20 +143,7 @@ https://raw.githubusercontent.com/trymoonrise/moonrise-special-prompt/main/ui/in
 
 [`before-after.html`](before-after.html) is the playback an agent leaves with the work. Copy it into the project, keep the original files as **Before**, and record each pass through to **After**. The page is a simple HTML video: drag the timeline, press play or pause, or jump back and forward 15 seconds.
 
-## Presets
-
-Small HTML/CSS snippets an agent can paste and recolor. The full set of types is in `ui/`. Prefer a type from `ui/` over inventing a new control.
-
-| File | Covers |
-| --- | --- |
-| [`presets/buttons.html`](presets/buttons.html) | Primary, secondary, ghost, danger, loading |
-| [`presets/loaders.html`](presets/loaders.html) | Spinner, skeleton, progress |
-| [`presets/field.html`](presets/field.html) | Text field with focus and error |
-| [`presets/toast-empty.html`](presets/toast-empty.html) | Toast and empty state |
-
-Live interactive demos for the same ideas:
-
-**[Open UI Library →](https://trymoonrise.com/ui-library.html)**
+Live demos of the same types: **[UI Library](https://trymoonrise.com/ui-library.html)**
 
 <p>
   <a href="https://trymoonrise.com/ui-library.html">
@@ -205,7 +186,7 @@ Moonrise Builder runs this prompt, quality-gates the HTML, repairs once, then fa
 | --- | --- |
 | [UI Library](https://trymoonrise.com/ui-library.html#craft) | Public copy button + live demos |
 | Moonrise Builder agent | Loads the same prompt server-side when generating sites |
-| This GitHub repo | Source of truth for the public prompt, `ui/` raw code, and presets |
+| This GitHub repo | Source of truth for the public prompt and the `ui/` raw code |
 
 Product: **[trymoonrise.com](https://trymoonrise.com)**  
 Studio docs and demos: **[UI Library](https://trymoonrise.com/ui-library.html)**  
@@ -225,11 +206,11 @@ Main product source: **[trymoonrise/moonrise](https://github.com/trymoonrise/moo
 ## Contributing
 
 1. Keep `PROMPT.md` the single source of the special prompt.
-2. Keep presets small, pasteable, and dependency-free. `ui/` is exported from the Moonrise UI Library. Change a pattern there, then re-export. Do not hand-edit the generated HTML.
+2. `ui/` is exported from the Moonrise UI Library. Change a pattern there, then re-export. Do not hand-edit the generated HTML.
 3. Match the calm Moonrise visual language (near-black ink, soft fills, hairline borders).
 4. Open a pull request with a short “why” — one concern per PR when possible.
 
-Issues and PRs are welcome for clearer wording, better presets, and agent-tool instructions.
+Issues and PRs are welcome for clearer wording and agent-tool instructions.
 
 ---
 

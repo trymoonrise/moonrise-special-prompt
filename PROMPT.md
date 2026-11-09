@@ -10,7 +10,7 @@ Use unslop as the quality bar for a professional, non-AI-looking interface: find
 
 ## Goal
 
-Make the current screen look designed — quiet chrome, clear hierarchy, one memorable moment, real controls with padding, hover, press, focus, loading, empty, and error states. If this project is Moonrise, copy a matching pattern from UI Library / this repo’s `presets/` instead of inventing a new control. Everywhere else, apply the same rules in that project’s stack (HTML/CSS, React, Vue, Svelte, Tailwind, or whatever is already there).
+Make the current screen look designed — quiet chrome, clear hierarchy, one memorable moment, real controls with padding, hover, press, focus, loading, empty, and error states. If this project is Moonrise, copy a matching pattern from UI Library / this repo’s `ui/` instead of inventing a new control. Everywhere else, apply the same rules in that project’s stack (HTML/CSS, React, Vue, Svelte, Tailwind, or whatever is already there).
 
 Slop spreads color and effects over chrome. Craft keeps chrome calm and puts richness into one or two content moments that belong to this product.
 
