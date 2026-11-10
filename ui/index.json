@@ -6,7 +6,7 @@
     "ui/css/ui-library.css",
     "ui/css/ui-library-lab.css"
   ],
-  "count": 837,
+  "count": 915,
   "groups": [
     {
       "id": "sections",
@@ -11386,6 +11386,905 @@
                 "lx-p",
                 "lx-spin",
                 "is-on"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terms",
+      "title": "Terms",
+      "categories": [
+        {
+          "id": "motion-terms",
+          "title": "Motion",
+          "folder": "ui/terms/motion-terms",
+          "types": [
+            {
+              "id": "motion-ease-out",
+              "title": "Ease-out",
+              "file": "ui/terms/motion-terms/motion-ease-out.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-ease-in-out",
+              "title": "Ease-in-out",
+              "file": "ui/terms/motion-terms/motion-ease-in-out.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-dropdown-time",
+              "title": "Dropdown timing",
+              "file": "ui/terms/motion-terms/motion-dropdown-time.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-press-scale",
+              "title": "Press scale",
+              "file": "ui/terms/motion-terms/motion-press-scale.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-knob-stretch",
+              "title": "Knob stretch",
+              "file": "ui/terms/motion-terms/motion-knob-stretch.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-stagger",
+              "title": "Stagger",
+              "file": "ui/terms/motion-terms/motion-stagger.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-arc",
+              "title": "Arc",
+              "file": "ui/terms/motion-terms/motion-arc.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-success-pulse",
+              "title": "Success pulse",
+              "file": "ui/terms/motion-terms/motion-success-pulse.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-popover-scale",
+              "title": "Popover scale",
+              "file": "ui/terms/motion-terms/motion-popover-scale.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-enter-trigger",
+              "title": "Enter from the trigger",
+              "file": "ui/terms/motion-terms/motion-enter-trigger.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-exit-trigger",
+              "title": "Exit to the trigger",
+              "file": "ui/terms/motion-terms/motion-exit-trigger.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-no-bounce",
+              "title": "No bounce",
+              "file": "ui/terms/motion-terms/motion-no-bounce.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-hold-still",
+              "title": "Hold still",
+              "file": "ui/terms/motion-terms/motion-hold-still.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-shorter-exit",
+              "title": "Shorter exit",
+              "file": "ui/terms/motion-terms/motion-shorter-exit.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-overlap",
+              "title": "Overlap states",
+              "file": "ui/terms/motion-terms/motion-overlap.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-mask",
+              "title": "Reveal mask",
+              "file": "ui/terms/motion-terms/motion-mask.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-icon-crossfade",
+              "title": "Icon crossfade",
+              "file": "ui/terms/motion-terms/motion-icon-crossfade.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-rubber-band",
+              "title": "Rubber band",
+              "file": "ui/terms/motion-terms/motion-rubber-band.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-shared-element",
+              "title": "Shared element",
+              "file": "ui/terms/motion-terms/motion-shared-element.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-origin",
+              "title": "Origin-aware",
+              "file": "ui/terms/motion-terms/motion-origin.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "motion-interruptible",
+              "title": "Interruptible",
+              "file": "ui/terms/motion-terms/motion-interruptible.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "type-terms",
+          "title": "Type",
+          "folder": "ui/terms/type-terms",
+          "types": [
+            {
+              "id": "type-kerning",
+              "title": "Kerning",
+              "file": "ui/terms/type-terms/type-kerning.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-tracking",
+              "title": "Tracking",
+              "file": "ui/terms/type-terms/type-tracking.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-leading",
+              "title": "Leading",
+              "file": "ui/terms/type-terms/type-leading.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-x-height",
+              "title": "x-height",
+              "file": "ui/terms/type-terms/type-x-height.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-tabular",
+              "title": "Tabular numbers",
+              "file": "ui/terms/type-terms/type-tabular.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-widow",
+              "title": "Widow",
+              "file": "ui/terms/type-terms/type-widow.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-orphan",
+              "title": "Orphan",
+              "file": "ui/terms/type-terms/type-orphan.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-line-length",
+              "title": "Line length",
+              "file": "ui/terms/type-terms/type-line-length.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-optical-center",
+              "title": "Optical centre",
+              "file": "ui/terms/type-terms/type-optical-center.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-italic",
+              "title": "Italic",
+              "file": "ui/terms/type-terms/type-italic.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-mono",
+              "title": "Mono",
+              "file": "ui/terms/type-terms/type-mono.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-hierarchy",
+              "title": "Hierarchy",
+              "file": "ui/terms/type-terms/type-hierarchy.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "type-baseline",
+              "title": "Baseline",
+              "file": "ui/terms/type-terms/type-baseline.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layout-terms",
+          "title": "Layout",
+          "folder": "ui/terms/layout-terms",
+          "types": [
+            {
+              "id": "layout-spacing",
+              "title": "Spacing",
+              "file": "ui/terms/layout-terms/layout-spacing.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-alignment",
+              "title": "Alignment",
+              "file": "ui/terms/layout-terms/layout-alignment.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-touch-target",
+              "title": "Touch target",
+              "file": "ui/terms/layout-terms/layout-touch-target.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-safe-area",
+              "title": "Safe area",
+              "file": "ui/terms/layout-terms/layout-safe-area.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-layout-shift",
+              "title": "Layout shift",
+              "file": "ui/terms/layout-terms/layout-layout-shift.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-aspect-ratio",
+              "title": "Aspect ratio",
+              "file": "ui/terms/layout-terms/layout-aspect-ratio.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-nested-radius",
+              "title": "Nested radius",
+              "file": "ui/terms/layout-terms/layout-nested-radius.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-contrast",
+              "title": "Contrast",
+              "file": "ui/terms/layout-terms/layout-contrast.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-accent",
+              "title": "Accent",
+              "file": "ui/terms/layout-terms/layout-accent.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-hairline",
+              "title": "Hairline",
+              "file": "ui/terms/layout-terms/layout-hairline.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-surface",
+              "title": "Surface",
+              "file": "ui/terms/layout-terms/layout-surface.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "layout-grid",
+              "title": "Grid",
+              "file": "ui/terms/layout-terms/layout-grid.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "interaction-terms",
+          "title": "Interaction",
+          "folder": "ui/terms/interaction-terms",
+          "types": [
+            {
+              "id": "interaction-affordance",
+              "title": "Affordance",
+              "file": "ui/terms/interaction-terms/interaction-affordance.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-combobox",
+              "title": "Combobox",
+              "file": "ui/terms/interaction-terms/interaction-combobox.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-disclosure",
+              "title": "Progressive disclosure",
+              "file": "ui/terms/interaction-terms/interaction-disclosure.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-optimistic",
+              "title": "Optimistic update",
+              "file": "ui/terms/interaction-terms/interaction-optimistic.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-loading",
+              "title": "Loading state",
+              "file": "ui/terms/interaction-terms/interaction-loading.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-focus",
+              "title": "Focus ring",
+              "file": "ui/terms/interaction-terms/interaction-focus.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-reduced-motion",
+              "title": "Reduced motion",
+              "file": "ui/terms/interaction-terms/interaction-reduced-motion.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-empty",
+              "title": "Empty state",
+              "file": "ui/terms/interaction-terms/interaction-empty.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-feedback",
+              "title": "Useful feedback",
+              "file": "ui/terms/interaction-terms/interaction-feedback.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-cta",
+              "title": "Call to action",
+              "file": "ui/terms/interaction-terms/interaction-cta.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-redundant-label",
+              "title": "Redundant label",
+              "file": "ui/terms/interaction-terms/interaction-redundant-label.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "interaction-filler-badge",
+              "title": "Filler badge",
+              "file": "ui/terms/interaction-terms/interaction-filler-badge.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "looks-terms",
+          "title": "Looks to leave out",
+          "folder": "ui/terms/looks-terms",
+          "types": [
+            {
+              "id": "looks-dithering",
+              "title": "Dithering",
+              "file": "ui/terms/looks-terms/looks-dithering.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-ascii-video",
+              "title": "ASCII over video",
+              "file": "ui/terms/looks-terms/looks-ascii-video.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-infinite-canvas",
+              "title": "Infinite canvas",
+              "file": "ui/terms/looks-terms/looks-infinite-canvas.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-disco-logo",
+              "title": "Disco logo",
+              "file": "ui/terms/looks-terms/looks-disco-logo.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-renaissance",
+              "title": "Renaissance branding",
+              "file": "ui/terms/looks-terms/looks-renaissance.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-monet",
+              "title": "Monet background",
+              "file": "ui/terms/looks-terms/looks-monet.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-gradient-hero",
+              "title": "Dark gradient hero",
+              "file": "ui/terms/looks-terms/looks-gradient-hero.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-pixel-loader",
+              "title": "Pixel loader",
+              "file": "ui/terms/looks-terms/looks-pixel-loader.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-instrument-serif",
+              "title": "Display serif as costume",
+              "file": "ui/terms/looks-terms/looks-instrument-serif.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-one-italic",
+              "title": "One italic word",
+              "file": "ui/terms/looks-terms/looks-one-italic.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-cream-scene",
+              "title": "Cream as a scene",
+              "file": "ui/terms/looks-terms/looks-cream-scene.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-all-caps",
+              "title": "All-caps eyebrow",
+              "file": "ui/terms/looks-terms/looks-all-caps.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-pulse-dot",
+              "title": "Pulsing live dot",
+              "file": "ui/terms/looks-terms/looks-pulse-dot.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-sparkle",
+              "title": "Sparkle icon",
+              "file": "ui/terms/looks-terms/looks-sparkle.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-liquid-glass",
+              "title": "Liquid glass",
+              "file": "ui/terms/looks-terms/looks-liquid-glass.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-three-cards",
+              "title": "Three icon cards",
+              "file": "ui/terms/looks-terms/looks-three-cards.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-flowchart",
+              "title": "Decorative flowchart",
+              "file": "ui/terms/looks-terms/looks-flowchart.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-marquee",
+              "title": "Endless marquee",
+              "file": "ui/terms/looks-terms/looks-marquee.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-squircle",
+              "title": "Squircle",
+              "file": "ui/terms/looks-terms/looks-squircle.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
+              ]
+            },
+            {
+              "id": "looks-pretext-wrap",
+              "title": "Pretext wrapping",
+              "file": "ui/terms/looks-terms/looks-pretext-wrap.html",
+              "classes": [
+                "dt-stage",
+                "lx-stretch",
+                "dt-dict-stage",
+                "dt-dict"
               ]
             }
           ]
